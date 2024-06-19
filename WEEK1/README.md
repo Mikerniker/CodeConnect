@@ -1,4 +1,5 @@
 To Do:
 
-- Footer Atoms
+- Add Footer Atoms
 - Fix Search svg
+- Make components 
