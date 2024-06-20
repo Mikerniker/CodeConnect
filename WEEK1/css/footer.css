@@ -5,9 +5,57 @@ body {
     color: #e3e4e5;
 }
 
+.footer__link-header {
+    color: #f4e1a7;
+    letter-spacing: 0.1rem;
+}
 
+/**/
+.footer__section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 
+.footer__start {
+    display: flex;
+    justify-content: center;  
+} 
 
+.footer__branding {
+    display: flex;
+    flex-direction: column;  
+} 
+
+.footer__contact {
+    display: flex;
+    flex-direction: column; 
+}
+
+.footer__contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.footer__contact-text {
+    margin-left: 0.5rem;
+}
+
+.footer__start, .footer__branding, .footer__navigation, .footer__socmed {
+    padding: 2rem;
+    margin: 1rem;
+  
+} 
+
+.footer__navigation {
+    display: flex;
+}
+
+.footer__links {
+    list-style-type: none;
+    line-height: 2rem;
+}
 
 /* Footer icons */
 .footer__icon path {
