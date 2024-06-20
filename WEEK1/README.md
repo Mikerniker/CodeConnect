@@ -26,6 +26,7 @@
 - [x] Fix Search svg
 - [x] Make components
 - [ ] Fix Responsiveness
+- [ ] Fix _______________________
 - [x] Make Initial Header Block 
 
 **Footer**
@@ -37,6 +38,7 @@
     - [ ] Torres Strait islander flag
     - [ ] Australian Aboriginal flag / indigenous flag
 - [ ] Fix Responsiveness
+- [ ] Fix _______________________
 - [x] Make Initial Footer Block 
 
 **HomePage Block 1: Hero Section**
@@ -47,3 +49,10 @@
 - [ ] Fix Responsiveness
 
 
+**Current View:**
+**Header:**
+![header](https://github.com/Mikerniker/CodeConnect/assets/63586831/92fe4646-3eb5-4f5c-8155-8943500b26a5)
+
+
+**Footer**
+![footer](https://github.com/Mikerniker/CodeConnect/assets/63586831/8c9844f1-1992-433a-9663-27205fe0f356)
