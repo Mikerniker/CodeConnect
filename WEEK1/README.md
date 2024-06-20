@@ -12,7 +12,7 @@
 - Estimations
 - Component-based/block-based/atomic approach to building websites
 
-## Resources:
+## References and Resources:
 - [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/)
 - [BEM Naming Convention](https://getbem.com/naming/)
 - SVG References: 
@@ -22,11 +22,11 @@
 #### To Do:
 **Header**
 - [x] Add Header Atoms
-- [x] Make Atoms 
 - [x] Add images and icons
 - [x] Fix Search svg
 - [x] Make components
-- [x] Make Initial Header  
+- [ ] Fix Responsiveness
+- [x] Make Initial Header Block 
 
 **Footer**
 - [ ] Add Footer Atoms
@@ -36,12 +36,15 @@
     - [ ] Lgbtq flag
     - [ ] Transgender flag
     - [ ] Torres Strait islander flag
-    - [ ]  Australian Aboriginal flag / indigenous flag
+    - [ ] Australian Aboriginal flag / indigenous flag
+- [ ] Fix Responsiveness
+- [] Make Initial Footer Block 
 
 **HomePage Block 1: Hero Section**
 - [ ] Atoms
 - [ ] Components 
 - [ ] Add Images and Icons
 - [ ] Make components 
+- [ ] Fix Responsiveness
 
 

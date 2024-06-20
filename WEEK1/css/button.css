@@ -11,6 +11,8 @@
     font-weight: 600;   
   }
 
+/* Header Buttons */  
+
 .button.header__button {
     background-color: #017173;
     color: white;
@@ -25,6 +27,7 @@
     height: auto;
 }
 
+/* Header Button Images */
 
 .header-search-button-img {
     width: 20px;

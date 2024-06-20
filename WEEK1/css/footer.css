@@ -1,0 +1,26 @@
+body {
+    background-color: #0f1828;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: #e3e4e5;
+}
+
+
+
+
+
+/* Footer icons */
+.footer__icon path {
+    fill: #ffffff;
+}
+
+
+.footer__socmed-icon {
+    width: 16px;
+    height: auto; 
+}
+
+.footer__socmed-image {
+    width: 125px;
+    height: auto; 
+}
