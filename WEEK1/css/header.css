@@ -1,0 +1,28 @@
+body {
+    background-color: #f0ebe8;
+}
+
+.navbar {
+
+    background-color: #ffffff;
+    border-radius: 16px;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+
+.navbar .navbar__links {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    
+  }
+
+
+  li {
+    float: left;
+  }
+  

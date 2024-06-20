@@ -8,10 +8,25 @@
     cursor: pointer;
     border-radius: 30px;
     font-family: "Poppins", sans-serif;
-    font-weight: 600;
+    font-weight: 600;   
   }
 
-  .header--button {
+.button.header__button {
     background-color: #017173;
     color: white;
   }
+
+
+.button.header__search {
+    background-color: transparent;
+    border: none; 
+    cursor: pointer; 
+    width: 20px;
+    height: auto;
+}
+
+
+.header-search-button-img {
+    width: 20px;
+    height: auto;
+}
