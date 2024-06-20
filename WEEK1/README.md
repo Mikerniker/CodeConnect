@@ -29,16 +29,15 @@
 - [x] Make Initial Header Block 
 
 **Footer**
-- [ ] Add Footer Atoms
-- [ ] Make components 
-- [ ] Add Images and Icons
+- [x] Add Footer Atoms
+- [x] Add Images and Icons
 - [ ] Find Flags:
-    - [ ] Lgbtq flag
-    - [ ] Transgender flag
+    - [x] Lgbtq flag
+    - [x] Transgender flag
     - [ ] Torres Strait islander flag
     - [ ] Australian Aboriginal flag / indigenous flag
 - [ ] Fix Responsiveness
-- [] Make Initial Footer Block 
+- [x] Make Initial Footer Block 
 
 **HomePage Block 1: Hero Section**
 - [ ] Atoms
