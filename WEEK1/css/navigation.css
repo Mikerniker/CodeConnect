@@ -1,6 +1,6 @@
 .nav {
-    display: block;
-    align-items: center;
+    display: flex;
+    gap: 1rem;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
 }
@@ -11,12 +11,13 @@
     font-size: 17px;
     padding: 14px 16px;
     text-decoration: none;
+    position: relative;   /*ADDED */
 }
 
 .nav__icon {
     width: 15px;
     height: auto;
-    margin-left: 2px;
+    margin-left: 0.4rem;
 }
 
 .nav__link:hover {

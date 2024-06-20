@@ -1,28 +1,38 @@
 body {
     background-color: #f0ebe8;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 
 .navbar {
     background-color: #ffffff;
-    border-radius: 30px;
+    border-radius: 45px;
+    display: flex;
     justify-content: center;
-    width: 100%;
-    padding: 1rem;
+    padding: 0.5rem;
+    margin: 25px 50px;
 }
 
 
-.navbar .navbar__links {
-    position: fixed;
+.navbar__links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    list-style-type: none;
-    
+    justify-content: space-between;
   }
 
+.navbar__item {
+    display: flex;
+    align-items: center;
+}
 
-  li {
-    float: left;
-  }
+
+
+
+
+
+
   
