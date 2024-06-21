@@ -1,6 +1,17 @@
+@font-face {
+    font-family: 'GeneralSans';
+    src: url('../fonts/GeneralSans-Bold.otf'); 
+    src: url('../fonts/GeneralSans-Extralight.otf'); 
+    src: url('../fonts/GeneralSans-Light.otf'); 
+    src: url('../fonts/GeneralSans-Medium.otf'); 
+    src: url('../fonts/GeneralSans-Regular.otf'); 
+    src: url('../fonts/GeneralSans-Semibold.otf'); 
+  }
+
+
 .nav {
     display: flex;   
-    font-family: "Poppins", sans-serif;
+    font-family: GeneralSans;
     font-weight: 500;
     /*new from figma*/
     width: Hug (689px)px;
@@ -12,11 +23,6 @@
 }
 
 .nav__link {
-    color: #333333;
-    float: left;
-    font-size: 17px;
-    padding: 14px 16px;
-    text-decoration: none;
     position: relative;   /*ADDED */
 }
 
