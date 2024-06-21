@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'GeneralSans';
+    src: url('../fonts/GeneralSans-Bold.otf'); 
+    src: url('../fonts/GeneralSans-Extralight.otf'); 
+    src: url('../fonts/GeneralSans-Light.otf'); 
+    src: url('../fonts/GeneralSans-Medium.otf'); 
+    src: url('../fonts/GeneralSans-Regular.otf'); 
+    src: url('../fonts/GeneralSans-Semibold.otf'); 
+  }
+
+
+
+.header__dropdown {
+    width: 689px;
+    height: 204px;
+    top: 84px;
+    left: 410px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+p {
+    font-family: GeneralSans;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: left;
+
+
+}
+
+.header__dropdown-top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.dropdown__learnmore {
+    width: Hug (115px)px;
+    height: Hug (24px)px;
+    top: 24px;
+    left: 542px;
+    gap: 8px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    color: #007173;
+}
+
+.dropdown__text-learnmore {
+    font-family: GeneralSans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: 0px;
+}
+
+.dropdown__icon {
+    width: 20px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.header__dropdown-bottom {
+    display: flex;
+    width: Hug (620px)px;
+    height: Hug (110px)px;
+    top: 63px;
+    left: 32px;
+    gap: 28px;
+    opacity: 0px;
+
+}
+
+.dropdown__text-state {
+    font-family: GeneralSans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #0F182880;
+
+}
+
+.dropdown__properties-icon {
+    width: 80px;
+    height: 80px;
+    padding: 20px 7.29px 20px 7px;
+    gap: 0px;
+    opacity: 0px;
+}
