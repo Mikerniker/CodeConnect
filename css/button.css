@@ -1,0 +1,45 @@
+.button {
+  border: none;
+  width: Hug (165px)px;
+  height: Hug (48px)px;
+  padding: 12px 24px;
+  gap: 8px;
+  border-radius: 100px;
+  opacity: 0px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;   
+  text-align: center;
+  text-decoration: none;
+  }
+
+/* Header Buttons */  
+
+.button.header__button {
+    background-color: #007173;
+    color: white;
+  }
+
+
+.button.header__search {
+    background-color: transparent;
+    border: none; 
+    cursor: pointer; 
+    width: 20px;
+    height: auto;
+}
+
+
+.button:hover {
+  background-color: #ffe1d6;  
+  color: #0F1828;
+}
+
+
+
+/* Header Button Images */
+
+.header-search-button-img {
+    width: 20px;
+    height: auto;
+}
