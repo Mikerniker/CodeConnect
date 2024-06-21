@@ -32,11 +32,7 @@
 **Footer**
 - [x] Add Footer Atoms
 - [x] Add Images and Icons
-- [ ] Find Flags:
-    - [x] Lgbtq flag
-    - [x] Transgender flag
-    - [ ] Torres Strait islander flag
-    - [ ] Australian Aboriginal flag / indigenous flag
+- [x] Find Flags
 - [ ] Fix Responsiveness
 - [ ] Fix _______________________
 - [x] Make Initial Footer Block 
