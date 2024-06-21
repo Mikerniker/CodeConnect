@@ -44,11 +44,14 @@ body {
     padding: 0;
     justify-content: space-between;
     width: 100%;
+    list-style-type: none; 
+
 }
 
 .navbar__item {
     display: flex;
     align-items: center;
+
 }
 
 

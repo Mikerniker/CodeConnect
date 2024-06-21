@@ -1,0 +1,10 @@
+
+.header__search-component {
+    width: Hug (221px)px;
+    height: Hug (48px)px;
+    top: 16px;
+    left: 1083px;
+    gap: 32px;
+    opacity: 0px;
+    display: flex;
+}
