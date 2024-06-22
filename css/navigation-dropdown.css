@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'GeneralSans';
+    src: url('../fonts/GeneralSans-Bold.otf'); 
+    src: url('../fonts/GeneralSans-Extralight.otf'); 
+    src: url('../fonts/GeneralSans-Light.otf'); 
+    src: url('../fonts/GeneralSans-Medium.otf'); 
+    src: url('../fonts/GeneralSans-Regular.otf'); 
+    src: url('../fonts/GeneralSans-Semibold.otf'); 
+  }
+
+/* Fonts / Typography */
+
+p, .header_dropdown-title {
+    font-family: GeneralSans;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.header_dropdown-title {
+    color: #0F1828;
+}
+
+.dropdown__text-learnmore {
+    font-size: 16px;
+    line-height: 24px;   
+    letter-spacing: 0px;
+}
+
+.dropdown__text-region { 
+    font-size: 16px;
+    margin-top: 0;
+    text-align: center;
+    color: #0F182880;
+}
+
+
+/* Main Div */
+
+.header__dropdown {
+    width: 689px;
+    height: auto;
+    top: 84px;
+    left: 410px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    opacity: 1; 
+    display: flex;
+    flex-direction: column;
+    padding: 16px; 
+    box-sizing: border-box;
+}
+
+/* Top of Dropdown */
+
+.header__dropdown-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.learnmore__link {
+    align-items: center;
+    color: #007173; 
+    text-decoration: none;
+    gap: 8px;
+}
+
+
+/* Bottom Dropdown Component */
+
+.header__dropdown-bottom, .learnmore__link, .header__dropdown-regions {
+    display: flex; 
+}
+
+.header__dropdown-bottom {
+    top: 63px;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.header__dropdown-regions {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 6px;
+    width: 80px;
+    height: 110px;
+}
+
+.header__dropdown-regions:hover {
+    background-color: #ffe1d6;
+    border-radius: 20px;
+}  
+
+.dropdown__link {
+    text-decoration: none;
+    border-radius: 100px;
+}
+
+
+/* Icons */
+.dropdown__icon-region {
+    width: 80px;
+    height: 80px;
+}
+
+.dropdown__arrow-icon {
+    width: 20px;
+    height: 20px;
+}
