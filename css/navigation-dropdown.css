@@ -112,3 +112,17 @@ p, .header_dropdown-title {
     width: 20px;
     height: 20px;
 }
+
+
+/*  Other Dropdowns */
+
+.header__dropdown-template {
+    width: 689px;
+    height: auto;
+    top: 84px;
+    left: 410px;
+    gap: 0px;
+    border-radius: 8px;
+    display: flex;
+
+}
