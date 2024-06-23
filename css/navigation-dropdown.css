@@ -44,10 +44,7 @@ p, .header_dropdown-title {
     height: auto;
     top: 84px;
     left: 410px;
-    gap: 0px;
-    border-radius: 8px;
-    opacity: 0px;
-    opacity: 1; 
+    border-radius: 8px; 
     display: flex;
     padding: 16px; 
     box-sizing: border-box;
@@ -133,6 +130,8 @@ h5 {
 
 .header__dropdown {
     justify-content: space-evenly;
+   
+
 }
 
 
@@ -147,8 +146,17 @@ h5 {
    
 }
 
+
+.header__dropdown-left {
+    width: Hug (306px)px;
+height: Hug (176px)px;
+top: 58px;
+left: 32px;
+}
+
 .vertical-line {
     border-left: 1px solid #0000001A;
+    
     
 }
 
@@ -159,6 +167,7 @@ h5 {
     border-radius: 8px;
 }
 
+
 .dropdown-card-text {
     display: flex;
     flex-direction: column;
@@ -168,7 +177,13 @@ h5 {
 .dropdown-left__links {
     text-decoration: none;
     color: #0F1828BF;
-    
+ 
+}
+
+.dropdown-left__text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
 }
 
 
