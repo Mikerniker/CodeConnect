@@ -14,14 +14,19 @@
   }
 
 /* Header Buttons */  
+.search-component {
+  display: flex;
+  gap: 8px;
 
-.button.header__button {
+}
+
+.button.search-component__button {
     background-color: #007173;
     color: white;
   }
 
 
-.button.header__search {
+.button.search-component__icon-button {
     background-color: transparent;
     border: none; 
     cursor: pointer; 
@@ -40,7 +45,7 @@
 
 /* Header Button Images */
 
-.header__button-img {
+.search-component__image {
     width: 20px;
     height: auto;
 
