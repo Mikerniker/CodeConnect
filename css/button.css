@@ -20,11 +20,17 @@
 
 }
 
-.button.search-component__button {
+.button.search-component__button, .search-component__button--header {
     background-color: #007173;
-    color: white;
+   color: white; 
   }
 
+
+  .search-component__button--footer {
+    background-color: #00BFC3;
+    color: #0F1828;
+    ;
+  }
 
 .button.search-component__icon-button {
     background-color: transparent;
