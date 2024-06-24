@@ -35,7 +35,9 @@
 - [x] Find Flags
 - [ ] Fix Responsiveness
 - [ ] Fix _______________________
-- [x] Make Initial Footer Block 
+- [ ] Fix Alignment and Sizing
+- [ ] Fix Footer CSS
+- [ ] Make Initial Footer Block 
 
 **HomePage Block 1: Hero Section**
 - [ ] Atoms
