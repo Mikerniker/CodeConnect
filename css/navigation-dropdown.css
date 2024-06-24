@@ -10,7 +10,7 @@
 
 /* Fonts / Typography */
 
-p, .header_dropdown-title {
+p, .header-dropdown-properties__title {
     font-family: GeneralSans;
     font-size: 13px;
     font-weight: 600;
@@ -19,17 +19,17 @@ p, .header_dropdown-title {
     text-align: left;
 }
 
-.header_dropdown-title {
+.header-dropdown-properties__title {
     color: #0F1828;
 }
 
-.dropdown__text-learnmore {
+.header-dropdown-properties__learnmore-text {
     font-size: 16px;
     line-height: 24px;   
     letter-spacing: 0px;
 }
 
-.dropdown__text-region { 
+.header-dropdown-bottom__text { 
     font-size: 16px;
     margin-top: 0;
     text-align: center;
@@ -39,7 +39,7 @@ p, .header_dropdown-title {
 
 /* Main Div */
 
-.header__dropdown, .header__dropdown-properties {
+.header-dropdown, .header-dropdown-properties {
     width: 689px;
     height: auto;
     top: 84px;
@@ -50,20 +50,20 @@ p, .header_dropdown-title {
     box-sizing: border-box;
 }
 
-.header__dropdown-properties {
+.header-dropdown-properties {
     flex-direction: column;  
 }
 
 
 /* Top of Dropdown */
 
-.header__dropdown-top {
+.header-dropdown-properties__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.learnmore__link {
+.header-dropdown-properties__learnmore-link {
     align-items: center;
     color: #007173; 
     text-decoration: none;
@@ -73,17 +73,17 @@ p, .header_dropdown-title {
 
 /* Bottom Dropdown Component */
 
-.header__dropdown-bottom, .learnmore__link, .header__dropdown-regions {
+.header-dropdown-bottom, .header-dropdown-properties__learnmore-link, .header-dropdown-bottom__regions {
     display: flex; 
 }
 
-.header__dropdown-bottom {
+.header-dropdown-bottom {
     top: 63px;
     justify-content: space-between;
     width: 100%; 
 }
 
-.header__dropdown-regions {
+.header-dropdown-bottom__regions {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
@@ -92,24 +92,24 @@ p, .header_dropdown-title {
     height: 110px;
 }
 
-.header__dropdown-regions:hover {
+.header-dropdown-bottom__regions:hover {
     background-color: #ffe1d6;
     border-radius: 20px;
 }  
 
-.dropdown__link {
+.header-dropdown-bottom__link {
     text-decoration: none;
     border-radius: 100px;
 }
 
 
 /* Icons */
-.dropdown__icon-region {
+.header-dropdown-bottom__image {
     width: 80px;
     height: 80px;
 }
 
-.dropdown__arrow-icon {
+.header-dropdown-properties__arrow-icon {
     width: 20px;
     height: 20px;
 }
@@ -128,14 +128,14 @@ h5 {
     margin: 0px;
 }
 
-.header__dropdown {
+.header-dropdown {
     justify-content: space-evenly;
    
 
 }
 
 
-.header__dropdown-card-content {
+.header-dropdown__right-content {
     width: 240px;
     height: 206px;
     top: 32px;
@@ -147,47 +147,47 @@ h5 {
 }
 
 
-.header__dropdown-left {
+.header-dropdown__left {
     width: Hug (306px)px;
-height: Hug (176px)px;
-top: 58px;
-left: 32px;
+    height: Hug (176px)px;
+    top: 58px;
+    left: 32px;
 }
 
-.vertical-line {
+
+.header-dropdown__right {    
     border-left: 1px solid #0000001A;
-    
-    
+    padding-left: 1rem;
 }
 
 
-.dropdown-card-image {
+.header-dropdown__right-image {
     width: 240px;
     height: 120px;
     border-radius: 8px;
 }
 
 
-.dropdown-card-text {
+.header-dropdown__right-text {
     display: flex;
     flex-direction: column;
     
 }
 
-.dropdown-left__links {
+.header-dropdown__left-links {
     text-decoration: none;
     color: #0F1828BF;
  
 }
 
-.dropdown-left__text {
+.header-dropdown__left- {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
 }
 
 
-.card__text-content {
+.header-dropdown__right-content {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
