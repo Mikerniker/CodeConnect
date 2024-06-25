@@ -1,13 +1,35 @@
+@font-face {
+    font-family: 'GeneralSans';
+    src: url('../fonts/GeneralSans-Bold.otf'); 
+    src: url('../fonts/GeneralSans-Extralight.otf'); 
+    src: url('../fonts/GeneralSans-Light.otf'); 
+    src: url('../fonts/GeneralSans-Medium.otf'); 
+    src: url('../fonts/GeneralSans-Regular.otf'); 
+    src: url('../fonts/GeneralSans-Semibold.otf'); 
+  }
+
+
 body {
     background-color: #0f1828;
     margin: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: GeneralSans;
     color: #e3e4e5;
 }
 
-.footer__link-header {
-    color: #f4e1a7;
-    letter-spacing: 0.1rem;
+/* Fonts Styling */
+
+.footer__header-link {
+    color: #FAE6AA;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.footer__link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
 }
 
 /* Footer Formatting */
@@ -41,14 +63,34 @@ body {
     margin-left: 0.5rem;
 }
 
+/* Footer Navigation Section */
+
 .footer__navigation {
     display: flex;
+    width: 456px;
+    height: 238px;
+    gap: 18px;
 }
 
-.footer__links {
+
+.footer__group-links {
     list-style-type: none;
-    line-height: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    padding: 0; 
+    margin: 0;  
 }
+
+
+.footer__group-links li {
+    box-sizing: border-box;
+    line-height: 2rem; 
+}
+
+
+
 
 /* Footer icons */
 .footer__icon path {
@@ -56,15 +98,12 @@ body {
 }
 
 
-
 /* Social Media Group */
 
 .footer__socmed {
     display: flex;
     flex-direction: column;
-  
 }
-
 
 .footer__socmed-group {
     display: flex;
@@ -106,10 +145,6 @@ body {
 
 
 /* Footer Bottom Section */
-
-
-
-
 
 
 
