@@ -5,7 +5,6 @@
   padding: 12px 24px;
   gap: 8px;
   border-radius: 100px;
-  opacity: 0px;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
   font-weight: 600;   
@@ -29,7 +28,10 @@
   .search-component__button--footer {
     background-color: #00BFC3;
     color: #0F1828;
-    ;
+    top: 13rem;
+    left: 72rem;
+    padding: 16px 40px 16px 40px;
+    width: 100%;
   }
 
 .button.search-component__icon-button {

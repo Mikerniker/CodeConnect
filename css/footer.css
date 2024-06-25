@@ -12,7 +12,7 @@ body {
 
 /* Footer Formatting */
 
-.footer__top, .footer__branding, .footer__navigation, .footer__socmed {
+.footer__top, .footer__branding, .footer__navigation {
     padding: 2rem;
     margin: 1rem;
 } 
@@ -55,42 +55,62 @@ body {
     fill: #ffffff;
 }
 
-.footer__socmed-icon {
-    width: 24px;
-    height: 24px;
+
+
+/* Social Media Group */
+
+.footer__socmed {
+    display: flex;
+    flex-direction: column;
+  
 }
 
-.footer__socmed-image {
-    width: 125px;
-    height: auto;  
-}
 
 .footer__socmed-group {
+    display: flex;
     padding: 0.5rem;
     margin: 0.5rem;
-    display: flex;
     gap: 12px;
 }
 
-.footer__socmed-link {
-    display: flex;             
-    justify-content: center;  
-    align-items: center;       
-    width: 48px;               
-    height: 48px;       
+.footer__socmed-image {
+    width: 48px;
+    height: 48px;  
 }
 
 .footer__socmed-group-icons {
     background: #0094961A;
     text-decoration: none;
-    width: 48px;
-    height: 48px;
     padding: 12px;
     border-radius: 100px;
     display: flex;
     justify-content: center;
     align-items: center;   
 }
+
+.footer__socmed-group-icons:hover {
+    background-color: #ffe1d6;  
+  }
+
+.footer__socmed-link {
+    display: flex;             
+    justify-content: center;  
+    align-items: center;       
+}
+
+.footer__socmed-icon {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+/* Footer Bottom Section */
+
+
+
+
+
 
 
 .footer__bottom {
