@@ -184,7 +184,7 @@ hr {
 .footer__bottom-footnote-content {
     display: flex;
     align-items: center;
-    gap: 8px;
+    
 
 } 
 
@@ -207,3 +207,7 @@ hr {
     color: #ffffff;
 }
 
+.footer_navlink {
+    text-decoration: none;
+    color: inherit;
+}
