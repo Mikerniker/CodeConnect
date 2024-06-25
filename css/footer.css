@@ -1,12 +1,22 @@
 @font-face {
     font-family: 'GeneralSans';
-    src: url('../fonts/GeneralSans-Bold.otf'); 
-    src: url('../fonts/GeneralSans-Extralight.otf'); 
-    src: url('../fonts/GeneralSans-Light.otf'); 
-    src: url('../fonts/GeneralSans-Medium.otf'); 
-    src: url('../fonts/GeneralSans-Regular.otf'); 
-    src: url('../fonts/GeneralSans-Semibold.otf'); 
-  }
+    src: url('../fonts/GeneralSans-Medium.otf');
+    font-weight: 400; /* Medium weight */
+}
+
+@font-face {
+    font-family: 'GeneralSans';
+    src: url('../fonts/GeneralSans-Regular.otf');
+    font-weight: 500; /* Regular weight */
+}
+
+@font-face {
+    font-family: 'GeneralSans';
+    src: url('../fonts/GeneralSans-Semibold.otf');
+    font-weight: 600; /* Semibold weight */
+}
+
+
 
 
 body {
@@ -32,6 +42,13 @@ body {
     color: #FFFFFF;
 }
 
+.footer__contact-text {   
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    }
+    
+
 /* Footer Formatting */
 
 .footer__top, .footer__branding, .footer__navigation {
@@ -39,29 +56,37 @@ body {
     margin: 1rem;
 } 
 
-.footer {
+.footer, .footer__branding, .footer__contact, .footer__top {
+    display: flex;
+}
+
+.footer, .footer__top {
     justify-content: center;
   }
 
-.footer__top {
-    display: flex;
-    justify-content: center;  
-} 
-
 .footer, .footer__branding, .footer__contact {
-    display: flex;
     flex-direction: column;  
 } 
+
+/* Footer Logo and Contact Section */
+
+.footer__logo {
+    margin-bottom: 2rem;
+}
+
 
 .footer__contact-info {
     display: flex;
     align-items: center;
     justify-content: left;
+    gap: 12px;
 }
 
-.footer__contact-text {
-    margin-left: 0.5rem;
+/* Footer icons */
+.footer__icon path {
+    fill: #ffffff;
 }
+
 
 /* Footer Navigation Section */
 
@@ -71,7 +96,6 @@ body {
     height: 238px;
     gap: 18px;
 }
-
 
 .footer__group-links {
     list-style-type: none;
@@ -83,18 +107,9 @@ body {
     margin: 0;  
 }
 
-
 .footer__group-links li {
     box-sizing: border-box;
     line-height: 2rem; 
-}
-
-
-
-
-/* Footer icons */
-.footer__icon path {
-    fill: #ffffff;
 }
 
 
@@ -153,7 +168,7 @@ body {
 }
 
 hr {  
-    border-top: 1px solid #e3e4e5;
+    border: 1px solid #FFFFFF33;
     width: 90%;
   }
 
