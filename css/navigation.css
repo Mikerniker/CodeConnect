@@ -2,18 +2,14 @@
 .nav {
     display: flex;   
     font-family: GeneralSans;
-    font-weight: 500;
-    /*new from figma*/
-    width: Hug (689px)px;
-    height: Hug (48px)px;
-    top: 16px;
-    left: 316px;
+    font-weight: 500;   
     gap: 4px;
-    opacity: 0px;
 }
 
 .nav__link {
     position: relative;   /*ADDED */
+    display: flex;
+    align-items: center;
 }
 
 .nav__icon {
@@ -26,4 +22,3 @@
     background-color: #ffe1d6;
     border-radius: 30px;
 }
-
