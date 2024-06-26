@@ -1,13 +1,3 @@
-@font-face {
-    font-family: 'GeneralSans';
-    src: url('../fonts/GeneralSans-Bold.otf'); 
-    src: url('../fonts/GeneralSans-Extralight.otf'); 
-    src: url('../fonts/GeneralSans-Light.otf'); 
-    src: url('../fonts/GeneralSans-Medium.otf'); 
-    src: url('../fonts/GeneralSans-Regular.otf'); 
-    src: url('../fonts/GeneralSans-Semibold.otf'); 
-  }
-
 
 .nav {
     display: flex;   
