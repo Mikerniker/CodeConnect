@@ -46,9 +46,10 @@ body {
 
 .footer__top {
     padding: 2rem;
-    margin: 1rem;
+    margin: auto;
     display: flex;
     flex-direction: column;
+    width: 90%;
 } 
 
 .footer__branding {
