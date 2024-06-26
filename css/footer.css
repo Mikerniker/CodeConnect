@@ -1,22 +1,3 @@
-@font-face {
-    font-family: 'GeneralSans';
-    src: url('../fonts/GeneralSans-Medium.otf');
-    font-weight: 400; /* Medium weight */
-}
-
-@font-face {
-    font-family: 'GeneralSans';
-    src: url('../fonts/GeneralSans-Regular.otf');
-    font-weight: 500; /* Regular weight */
-}
-
-@font-face {
-    font-family: 'GeneralSans';
-    src: url('../fonts/GeneralSans-Semibold.otf');
-    font-weight: 600; /* Semibold weight */
-}
-
-
 body {
   
     margin: 0;
