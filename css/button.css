@@ -1,13 +1,11 @@
 .button {
   border: none;
-  width: Hug (165px)px;
-  height: Hug (48px)px;
-  padding: 12px 24px;
-  gap: 0.5rem;
   border-radius: 100px;
   cursor: pointer;
   font-family: "GeneralSans", sans-serif;
   font-weight: 600;   
+  gap: 0.5rem;
+  padding: 12px 24px;
   text-align: center;
   text-decoration: none;
   }
@@ -20,28 +18,28 @@
 }
 
 .button.search-component__button, .search-component__button--header {
-    background-color: #007173;
-    color: white; 
-  }
+  background-color: #007173;
+  color: white; 
+}
 
 
-  .search-component__button--footer {
-    background-color: #00BFC3;
-    color: #0F1828;
-    top: 13rem;
-    left: 72rem;
-    padding: 16px 40px 16px 40px;
-    width: 100%;
-  }
+.search-component__button--footer {
+  background-color: #00BFC3;
+  color: #0F1828;
+  top: 13rem;
+  left: 72rem;
+  padding: 16px 40px 16px 40px;
+  width: 100%;
+}
 
 .button.search-component__icon-button {
-    background-color: transparent;
-    border: none; 
-    cursor: pointer; 
-    width: 20px;
-    height: auto;
-    display: flex;
-    justify-content: center;
+  background-color: transparent;
+  border: none; 
+  cursor: pointer; 
+  width: 20px;
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
 
 
