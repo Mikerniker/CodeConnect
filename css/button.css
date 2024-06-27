@@ -3,7 +3,7 @@
   width: Hug (165px)px;
   height: Hug (48px)px;
   padding: 12px 24px;
-  gap: 8px;
+  gap: 0.5rem;
   border-radius: 100px;
   cursor: pointer;
   font-family: "GeneralSans", sans-serif;
@@ -15,7 +15,7 @@
 /* Header Buttons */  
 .search-component {
   display: flex;
-  gap: 8px;
+  gap: 0.5rem;
 
 }
 
