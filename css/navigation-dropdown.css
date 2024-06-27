@@ -130,8 +130,6 @@ h5 {
 
 .header-dropdown {
     justify-content: space-evenly;
-   
-
 }
 
 
@@ -143,7 +141,6 @@ h5 {
     display: flex;
     flex-direction: column;
     gap: 8px;
-   
 }
 
 
@@ -154,12 +151,10 @@ h5 {
     left: 32px;
 }
 
-
 .header-dropdown__right {    
     border-left: 1px solid #0000001A;
     padding-left: 1rem;
 }
-
 
 .header-dropdown__right-image {
     width: 240px;
@@ -167,17 +162,14 @@ h5 {
     border-radius: 8px;
 }
 
-
 .header-dropdown__right-text {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 
 .header-dropdown__left-links {
     text-decoration: none;
     color: #0F1828BF;
- 
 }
 
 .header-dropdown__left- {
