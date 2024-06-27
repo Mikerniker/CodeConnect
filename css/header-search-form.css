@@ -1,10 +1,48 @@
 
-.header__search-component {
-    width: Hug (221px)px;
-    height: Hug (48px)px;
-    top: 16px;
-    left: 1083px;
-    gap: 32px;
-    opacity: 0px;
+.search-component {
     display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  
+  }
+
+
+ /* Header Button Images and icons  */
+
+.search-component__friesmenu__icon {
+    width: 32px;
+    height: 32px;
+}
+
+.search-component__image {
+    width: 20px;
+    height: auto;
+}
+
+.search-component__friesmenu {
+    background: transparent; 
+    border: none; 
+    cursor: pointer; 
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0;  
+
+}
+
+.search-component__icon-button {
+    margin-right: 10px;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .search-component__friesmenu {
+        display: flex;
+    }
+
+    
+    .search-component__button {
+        display: none; /* Optionally hide other buttons if needed */
+    }
 }

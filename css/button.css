@@ -11,11 +11,6 @@
   }
 
 /* Header Buttons */  
-.search-component {
-  display: flex;
-  gap: 0.5rem;
-
-}
 
 .button.search-component__button, .search-component__button--header {
   background-color: #007173;
@@ -46,13 +41,4 @@
 .button:hover {
   background-color: #ffe1d6;  
   color: #0F1828;
-}
-
-
-/* Header Button Images */
-
-.search-component__image {
-    width: 20px;
-    height: auto;
-
 }

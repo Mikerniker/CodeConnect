@@ -31,10 +31,21 @@
 
 @media (max-width: 768px) {
     .nav {
-        flex-direction: column; 
+       /* flex-direction: column; */ 
         align-items: center;
+        overflow: hidden;
+       
     }
     
+    .nav__dropdown a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+
     .nav__link {
         width: 100%; 
         justify-content: center; 
