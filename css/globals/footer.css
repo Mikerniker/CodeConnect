@@ -19,17 +19,16 @@ body {
     text-align: left;
 }
 
-
 .footer__header-link {
     color: #FAE6AA;
-    font-size: 13px;
+    font-size: 0.81rem;
     font-weight: 600;
     letter-spacing: 2px;
 }
 
 .footer__link,
 .footer__contact-text {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 
@@ -166,7 +165,7 @@ hr {
 } 
 
 .footer__bottom-footnote-text {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 300;
     line-height: 16px;
     letter-spacing: 0.5px;
@@ -189,9 +188,6 @@ hr {
 }
 
 
-
-/* TO DO */
-
 /* Media Queries for Mobile */
 @media (max-width: 768px) {
 
@@ -208,7 +204,7 @@ hr {
 }
 
 .footer__socmed-group  {
-    justify-content: center;  /* HERE*/
+    justify-content: center;  
 }
 
 .footer__logo,
@@ -219,8 +215,7 @@ hr {
 }
 
 .footer__header-link,
-.footer__link
- {
+.footer__link {
     text-align: center;
 }
 
