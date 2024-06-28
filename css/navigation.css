@@ -1,6 +1,6 @@
 .nav {
     display: flex;   
-    font-family: GeneralSans;
+    font-family: "General Sans", sans-serif;
     font-weight: 500;   
     /* Review for later */
     flex-wrap: wrap;    

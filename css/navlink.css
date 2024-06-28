@@ -1,39 +1,23 @@
-@font-face {
-    font-family: 'GeneralSans';
-    src: url('../fonts/GeneralSans-Bold.otf'); 
-    src: url('../fonts/GeneralSans-Extralight.otf'); 
-    src: url('../fonts/GeneralSans-Light.otf'); 
-    src: url('../fonts/GeneralSans-Medium.otf'); 
-    src: url('../fonts/GeneralSans-Regular.otf'); 
-    src: url('../fonts/GeneralSans-Semibold.otf'); 
-  }
-
 .nav__link {
     color: #0F1828;
     float: left;
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
-    font-family: GeneralSans;
+    font-family: "General Sans", sans-serif;
     font-weight: 500;
     line-height: 24px;
     text-align: left;
     
     /* Add from figma*/
-    width: Hug (160px)px;
-    height: Hug (48px)px;
     padding: 12px 16px;
     gap: 8px;
     border-radius: 100px;
-    opacity: 0px;
 }
 
 .nav__icon {   
     /*figma*/
     width: 10px;
-    height: 10px;
-    gap: 0px;
-    opacity: 0.5px;
-    /*angle: -90 deg;*/
+    height: 10px;  
 }
 
 .nav__link:hover {
