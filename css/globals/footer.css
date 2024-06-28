@@ -162,8 +162,7 @@ hr {
 
 .footer__bottom-footnote-content {
     display: flex;
-     align-items: center;
-       /* flex-direction: column;   -  mobile */
+    align-items: center; 
 } 
 
 .footer__bottom-footnote-text {
@@ -193,14 +192,43 @@ hr {
 
 /* TO DO */
 
-@media only screen and (min-width: 600px) {
-/* desktop */
-.footer__bottom-footnote-content {
-    display: flex;
-    align-items: center;
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
 
+.footer__bottom-footnote-content, 
+.footer__branding, 
+.footer__navigation,
+.footer__navigation-links  {   
+    flex-direction: column;    
 } 
+
+.footer__branding, 
+.footer__navigation {
+    align-items: center;
 }
+
+.footer__socmed-group  {
+    justify-content: center;  /* HERE*/
+}
+
+.footer__logo,
+.footer__contact,
+.footer__contact-socmed
+.footer__navigation-links {
+    padding: 1rem;
+}
+
+.footer__header-link,
+.footer__link
+ {
+    text-align: center;
+}
+
+.footer__contact-socmed {
+    width: 100%;
+}
+}
+
 
 
 
