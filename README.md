@@ -1,15 +1,15 @@
-# WEEK 1
+## WEEK 1
 - Estimates 
 - Theme structure (+ repo) -  codebase setup
 - Header (static)
 - Footer
 - At least 1 block from the home page
 
-# WEEK 2
+## WEEK 2
 - Fix header and footer
 - Organize code
 
-# WEEK 3
+## WEEK 3
 - Finish main page blocks
 
 
