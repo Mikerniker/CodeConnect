@@ -1,11 +1,17 @@
 # WEEK 1
-
-## Targets:
 - Estimates 
-- Theme structure (+ repo) - your codebase setup
+- Theme structure (+ repo) -  codebase setup
 - Header (static)
 - Footer
 - At least 1 block from the home page
+
+# WEEK 2
+- Fix header and footer
+- Organize code
+
+# WEEK 3
+- Finish main page blocks
+
 
 ## Implementations/Activities:
 - BEM Naming Convention (~ basic implementation)
@@ -26,31 +32,28 @@
 - [x] Fix Search svg
 - [x] Make components
 - [ ] Fix Responsiveness
-- [ ] Fix _______________________
 - [x] Make Initial Header Block 
+- [] Other: ______
 
 **Footer**
 - [x] Add Footer Atoms
 - [x] Add Images and Icons
 - [x] Find Flags
 - [ ] Fix Responsiveness
-- [ ] Fix _______________________
-- [ ] Fix Alignment and Sizing
-- [ ] Fix Footer CSS
-- [ ] Make Initial Footer Block 
+- [x] Fix Alignment and Sizing
+- [x] Fix Footer CSS
+- [x] Make Initial Footer Block 
+- [] Other: ______
 
 **HomePage Block 1: Hero Section**
-- [ ] Atoms
+- [ ] Atoms: To do Button outline
 - [ ] Components 
-- [ ] Add Images and Icons
+- [x] Add Images and Icons
 - [ ] Make components 
 - [ ] Fix Responsiveness
+- [ ] Fix Alignment and Sizing
+- [] Other: ______
 
 
-**Current View:**
-**Header:**
-![header](https://github.com/Mikerniker/CodeConnect/assets/63586831/92fe4646-3eb5-4f5c-8155-8943500b26a5)
-
-
-**Footer**
-![footer](https://github.com/Mikerniker/CodeConnect/assets/63586831/8c9844f1-1992-433a-9663-27205fe0f356)
+**Live Link:**
+https://mikerniker.github.io/CodeConnect/
