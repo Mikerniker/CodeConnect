@@ -33,7 +33,7 @@
 - [x] Make components
 - [ ] Fix Responsiveness
 - [x] Make Initial Header Block 
-- [] Other: ______
+- [ ] Other: ______
 
 **Footer**
 - [x] Add Footer Atoms
@@ -43,7 +43,7 @@
 - [x] Fix Alignment and Sizing
 - [x] Fix Footer CSS
 - [x] Make Initial Footer Block 
-- [] Other: ______
+- [ ] Other: ______
 
 **HomePage Block 1: Hero Section**
 - [ ] Atoms: To do Button outline
@@ -52,7 +52,7 @@
 - [ ] Make components 
 - [ ] Fix Responsiveness
 - [ ] Fix Alignment and Sizing
-- [] Other: ______
+- [ ] Other: ______
 
 
 **Live Link:**
