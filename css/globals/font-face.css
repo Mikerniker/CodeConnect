@@ -34,3 +34,8 @@
   font-weight: 700; /* Bold weight */
 }
   
+
+@font-face {
+  font-family: 'Gotcha Regular';
+  src: url('../../fonts/gotcha-regular.ttf');
+}
