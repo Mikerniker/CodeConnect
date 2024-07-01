@@ -13,15 +13,23 @@
 
 /* Header Buttons */  
 
-.button.search-component__button, .search-component__button--header, .header-link-button {
+.button.search-component__button, 
+.search-component__button--header, 
+.header-link-button {
   background-color: #007173;
   color: white; 
 }
 
 
+.search-component__button--footer,
+.button:hover,
+.outline-button {
+  color: #0F1828;
+} 
+
+
 .search-component__button--footer {
   background-color: #00BFC3;
-  color: #0F1828;
   top: 13rem;
   left: 72rem;
   padding: 16px 40px 16px 40px;
@@ -41,5 +49,9 @@
 
 .button:hover {
   background-color: #ffe1d6;  
-  color: #0F1828;
+}
+
+/* Outline Button */
+.outline-button {
+  border: 1px solid #0F182880;
 }
