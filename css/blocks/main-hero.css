@@ -1,31 +1,32 @@
 html, body {
     margin: 0;
-    padding: 0;
-    
+    padding: 0; 
 }
 
 /* Fonts */
 
 h1 {
-        
-    font-family: Gotcha Regular;
-    font-size: 66px;
+    font-family: "Gotcha Regular", sans-serif;
+    font-size: 4.125rem;
     font-weight: 400;
     line-height: 52px;
     text-align: left; 
+    color: #007173;
+    margin: 0;
+}
 
-/* Add later */
-    /*
-    font-family: General Sans;
+h1 > span {
+    font-family: "General Sans", sans-serif;
     font-size: 3rem;
     font-weight: 600;
     line-height: 52px;
-    text-align: left; */
-
+    text-align: left; 
+    color: #0F1828;
 }
 
-.hero__paragraph {
-    font-family: General Sans;
+.hero__paragraph,
+.contact__paragraph {
+    font-family: "General Sans", sans-serif;
     font-size: 1.125rem;
     font-weight: 400;
     line-height: 26px;
@@ -33,12 +34,19 @@ h1 {
     color: #383838;
 }
 
-/* Content */
 
+/* Content */
+.container,
+.container-contact {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    }
 
 .container {
-    width: 100%;
-    margin: 0;
     background: linear-gradient(
     to right,
     #F1EAE6 0%,
@@ -46,28 +54,51 @@ h1 {
     #009496 75%,
     #009496 100%
     );
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    }
+
+.container-contact {
+    background: linear-gradient(
+    to right,
+    #009496 0%,
+    #009496 25%,
+    #F1EAE6 25%,
+    #F1EAE6 100%
+    );
     }
 
 
-.hero {
+.hero,
+.contact {
     display: flex;
+    width: 90%;
+    height: auto;
+    gap: 5rem;
+}
+
+.hero__content,
+.hero__main-image,
+.contact__content,
+.contact__main-image {
+    flex: 1;
+    display: flex;
+}
+
+.hero__content,
+.contact__content {
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    margin-top: 2rem;
 }
 
-.hero__main-image {
+.hero__buttons,
+.contact__buttons {
     display: flex;
-    align-items: flex-end;
-    padding: 1rem 1rem 0rem 1rem;
-
+    gap: 8px;    
+    align-self: flex-start;
 }
 
-.hero__img {
+.hero__img,
+.contact__img {
     max-width: 100%;
     height: auto;
     border-radius: 1000px 1000px 0px 0px;
