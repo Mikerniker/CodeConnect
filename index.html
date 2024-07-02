@@ -14,6 +14,10 @@
         <link rel="stylesheet" href="css/atoms/logo.css">
         <link rel="stylesheet" href="css/atoms/navlink.css">  
 
+        <!-- Blocks -->
+        <link rel="stylesheet" href="css/blocks/main-hero.css">  
+
+
         <!-- Components -->
         <link rel="stylesheet" href="css/components/navigation.css">
         <link rel="stylesheet" href="css/components/header-search-form.css">
@@ -25,55 +29,104 @@
     <body>
 
         <!-- Header Section -->
-        <div class="navbar">
-            <div class="navbar__frame">    
-                <ul class="navbar__links">
-                    <li class="navbar__item">
-                        <a class="logo" href="#">
-                            <img class="logo__img" src="images/atoms/logoipsum.svg" alt="logo image">
-                        </a> 
-                    </li>
-                    <li class="navbar__item">
-                        <nav class="nav">
-                            <a href="#" class="nav__link">
-                                Our Properties
-                                <img class="nav__icon" src="images/atoms/chevron-down.svg" alt="chevron down icon">
+        <header>
+            <div class="navbar">
+                <div class="navbar__frame">    
+                    <ul class="navbar__links">
+                        <li class="navbar__item">
+                            <a class="logo" href="#">
+                                <img class="logo__img" src="images/atoms/logoipsum.svg" alt="logo image">
                             </a> 
-                            <a href="#" class="nav__link">
-                                SDA
-                                <img class="nav__icon" src="images/atoms/chevron-down.svg" alt="chevron down icon">
-                            </a> 
-                            <a href="#" class="nav__link">
-                                About Us
-                                <img class="nav__icon" src="images/atoms/chevron-down.svg" alt="chevron down icon">
-                            </a> 
-                            <a href="#" class="nav__link">
-                                Resource Hub
-                                <img class="nav__icon" src="images/atoms/chevron-down.svg" alt="chevron down icon">
-                            </a>
-                            <a href="#" class="nav__link">
-                                Media & News
-                                <img class="nav__icon" src="images/atoms/chevron-down.svg" alt="chevron down icon">
-                            </a>                
-                        </nav>
-                    </li>
-                    <li>
-                        <div class="search-component">
-                            <button class="button search-component__icon-button" type="submit"> 
-                                <img class="search-component__image" src="images/atoms/search.svg" alt="search icon">
-                            </button>         
+                        </li>
+                        <li class="navbar__item">
+                            <nav class="nav">
+                                <a href="#" class="nav__link">
+                                    Our Properties
+                                    <img class="nav__icon" src="images/atoms/chevron-down.svg" alt="chevron down icon">
+                                </a> 
+                                <a href="#" class="nav__link">
+                                    SDA
+                                    <img class="nav__icon" src="images/atoms/chevron-down.svg" alt="chevron down icon">
+                                </a> 
+                                <a href="#" class="nav__link">
+                                    About Us
+                                    <img class="nav__icon" src="images/atoms/chevron-down.svg" alt="chevron down icon">
+                                </a> 
+                                <a href="#" class="nav__link">
+                                    Resource Hub
+                                    <img class="nav__icon" src="images/atoms/chevron-down.svg" alt="chevron down icon">
+                                </a>
+                                <a href="#" class="nav__link">
+                                    Media & News
+                                    <img class="nav__icon" src="images/atoms/chevron-down.svg" alt="chevron down icon">
+                                </a>                
+                            </nav>
+                        </li>
+                        <li>
+                            <div class="search-component">
+                                <button class="button search-component__icon-button" type="submit"> 
+                                    <img class="search-component__image" src="images/atoms/search.svg" alt="search icon">
+                                </button>         
 
-                            <a href="#" class="button header-link-button">Submit Enquiry</a>
+                                <a href="#" class="button header-link-button">Submit Enquiry</a>
 
-                            <button  href="#" class="search-component__friesmenu">
-                                <img class="search-component__friesmenu__icon" src="images/components/fries-menu.svg" alt="fries menu icon">
-                            </button>  
-                        </div>
-                    </li>
+                                <button  href="#" class="search-component__friesmenu">
+                                    <img class="search-component__friesmenu__icon" src="images/components/fries-menu.svg" alt="fries menu icon">
+                                </button>  
+                            </div>
+                        </li>
 
-                </ul>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </header>
+
+
+        <!-- Hero Section -->
+        <section class="container">
+            <div class="hero">
+                <div class="hero__content">
+                    <div class="hero__text">
+                        <h1 class="hero__header">Life-changing <span>living</span></h1>
+                        <p  class="hero__paragraph">In ornare et eget commodo consectetur mauris nec. Risus leo ultricies adipiscing commodo ipsum interdum vulputate. Ut magna et mollis et. </p>
+                    </div>
+                        
+                    <div  class="hero__buttons">
+                        <a href="#" class="button header-link-button">Submit Enquiry</a>
+                        <a href="#" class="button outline-button">Find a property</a>
+                    </div>
+                </div>
+                <div class="hero__main-image">
+                    <img class="hero__img" src="images/blocks/women-talking-on-couch.jpg" alt="two women talking on a couch by a window with plants on a windowsill"  width="604" height="604" loading="lazy">              
+                </div>
+               
+            </div>
+        </section>
+
+
+       <h2> SPACE FOR OTHER SECTIONS </h2>
+
+
+
+        <!-- Contact Section -->
+        <section class="container-contact">
+            <div class="contact">
+                <div class="contact__main-image">
+                    <img class="contact__img" src="images/blocks/woman-with-laptop.jpg" alt="woman sitting on a table having an online meeting on her laptop"  width="604" height="604" loading="lazy">              
+                </div>
+                <div class="contact__content">
+                    <div class="contact__text">
+                        <h1 class="contact__header"><span>Contact</span> Marameo <span>today</span></h1>
+                        <p  class="contact__paragraph">Integer amet ultrices odio sed amet nulla gravida lectus. Nisl proin quisque pretium porta magnis ullamcorper pellentesque. Nam nibh augue in sed sed felis risus eu.</p>
+                    </div>
+                        
+                    <div  class="contact__buttons">
+                        <a href="#" class="button header-link-button">Submit Enquiry</a>
+                        <a href="#" class="button outline-button">Call us 1300 156 555</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
         <!-- Footer Section -->
