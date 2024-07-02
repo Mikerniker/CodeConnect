@@ -44,6 +44,7 @@ h1 > span {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    padding-top: 10rem;
     }
 
 .container {
@@ -73,6 +74,7 @@ h1 > span {
     width: 90%;
     height: auto;
     gap: 5rem;
+
 }
 
 .hero__content,
@@ -88,6 +90,7 @@ h1 > span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .hero__buttons,
@@ -103,3 +106,34 @@ h1 > span {
     height: auto;
     border-radius: 1000px 1000px 0px 0px;
     }
+
+    /* Media Queries */
+@media (max-width: 768px) {
+     
+    .hero__paragraph,
+    .contact__paragraph {
+    text-align: center; 
+}
+
+    .container,
+    .container-contact  {
+        background: #F1EAE6;
+    }
+
+    .hero,
+    .contact,
+    .hero__buttons,
+    .contact__buttons {
+        flex-direction: column;
+    }
+
+    .contact {
+        flex-direction: column-reverse;
+    }
+
+    .hero__buttons,
+    .contact__buttons {
+        width: 100%;
+    }
+
+}
