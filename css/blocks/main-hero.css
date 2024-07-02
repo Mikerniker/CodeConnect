@@ -5,7 +5,7 @@ html, body {
 
 /* Fonts */
 
-h1 {
+h1, h2 {
     font-family: "Gotcha Regular", sans-serif;
     font-size: 4.125rem;
     font-weight: 400;
@@ -15,7 +15,8 @@ h1 {
     margin: 0;
 }
 
-h1 > span {
+h1 > span,
+h2 > span {
     font-family: "General Sans", sans-serif;
     font-size: 3rem;
     font-weight: 600;
@@ -24,8 +25,20 @@ h1 > span {
     color: #0F1828;
 }
 
+.about-us__subtitle {
+    font-family: "General Sans", sans-serif;
+    font-size: 0.813rem;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #0F1828BF;
+
+}
+
 .hero__paragraph,
-.contact__paragraph {
+.contact__paragraph,
+.about-us__paragraph {
     font-family: "General Sans", sans-serif;
     font-size: 1.125rem;
     font-weight: 400;
@@ -37,15 +50,20 @@ h1 > span {
 
 /* Content */
 .container,
-.container-contact {
+.container-contact,
+.container-about {
     width: 100%;
     height: 100vh;
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    padding-top: 10rem;
     }
+    
+.container,
+.container-contact {
+    padding-top: 8rem;
+    align-items: flex-end;
+ }
 
 .container {
     background: linear-gradient(
@@ -67,9 +85,15 @@ h1 > span {
     );
     }
 
+.container-about {
+    background: #FFFFFF;
+    
+}
+ 
 
 .hero,
-.contact {
+.contact,
+.about-us {
     display: flex;
     width: 90%;
     height: auto;
@@ -80,7 +104,9 @@ h1 > span {
 .hero__content,
 .hero__main-image,
 .contact__content,
-.contact__main-image {
+.contact__main-image,
+.about-us__content,
+.about-us__main-image {
     flex: 1;
     display: flex;
 }
@@ -107,6 +133,13 @@ h1 > span {
     border-radius: 1000px 1000px 0px 0px;
     }
 
+
+.about-us__img {
+    max-width: 100%;
+    width: 648px;
+    height: auto;
+}    
+
     /* Media Queries */
 @media (max-width: 768px) {
      
@@ -118,6 +151,7 @@ h1 > span {
     .container,
     .container-contact  {
         background: #F1EAE6;
+        padding-top: 20rem;
     }
 
     .hero,
