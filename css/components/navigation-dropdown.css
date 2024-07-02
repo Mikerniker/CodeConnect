@@ -13,11 +13,6 @@ p, .header-dropdown-properties__title {
     color: #0F1828;
 }
 
-.header-dropdown-properties__learnmore-text {
-    font-size: 1rem;
-    line-height: 24px;   
-    letter-spacing: 0px;
-}
 
 .header-dropdown-bottom__text { 
     font-size: 1rem;
@@ -53,17 +48,12 @@ p, .header-dropdown-properties__title {
     align-items: center;
 }
 
-.header-dropdown-properties__learnmore-link {
-    align-items: center;
-    color: #007173; 
-    text-decoration: none;
-    gap: 8px;
-}
+
 
 
 /* Bottom Dropdown Component */
 
-.header-dropdown-bottom, .header-dropdown-properties__learnmore-link, .header-dropdown-bottom__regions {
+.header-dropdown-bottom, .header-dropdown-bottom__regions {
     display: flex; 
 }
 
@@ -98,12 +88,6 @@ p, .header-dropdown-properties__title {
     width: 80px;
     height: 80px;
 }
-
-.header-dropdown-properties__arrow-icon {
-    width: 20px;
-    height: 20px;
-}
-
 
 /*  Other Dropdowns */
 
