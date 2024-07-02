@@ -57,13 +57,9 @@ h2 > span {
     margin: 0;
     display: flex;
     justify-content: center;
-    }
-    
-.container,
-.container-contact {
-    padding-top: 8rem;
     align-items: flex-end;
- }
+    }
+   
 
 .container {
     background: linear-gradient(
@@ -87,7 +83,6 @@ h2 > span {
 
 .container-about {
     background: #FFFFFF;
-    
 }
  
 
@@ -112,11 +107,11 @@ h2 > span {
 }
 
 .hero__content,
-.contact__content {
+.contact__content,
+.about-us__content {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .hero__buttons,
@@ -138,6 +133,7 @@ h2 > span {
     max-width: 100%;
     width: 648px;
     height: auto;
+    object-fit: contain;
 }    
 
     /* Media Queries */
@@ -149,19 +145,24 @@ h2 > span {
 }
 
     .container,
-    .container-contact  {
-        background: #F1EAE6;
+    .container-contact,
+    .container-about {
         padding-top: 20rem;
     }
 
+    .container,
+    .container-contact {
+        background: #F1EAE6;
+    }
+
     .hero,
-    .contact,
     .hero__buttons,
     .contact__buttons {
         flex-direction: column;
     }
 
-    .contact {
+    .contact,
+    .about-us {
         flex-direction: column-reverse;
     }
 
