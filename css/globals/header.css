@@ -1,9 +1,6 @@
-body {
-    background-color: #f0ebe8;
-    margin: 0;
-    font-family: "General Sans", sans-serif;
+header {
+    background-color: transparent;
 }
-
 
 .navbar {
     display: flex;
