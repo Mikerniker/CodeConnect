@@ -8,8 +8,10 @@
 }
 
 .feature__heading {
+    font-family: "General Sans", sans-serif;
     font-size: 2.5rem;
     line-height: 44px;
+    padding-bottom: 2rem;
 }
 
 .feature__img {
@@ -58,11 +60,10 @@
 }
 
 .feature__content {
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 3rem;
 }
 
 .feature__text-group {
@@ -72,7 +73,7 @@
 
 
 .feature__image-group {
-    flex: 2;
+    flex: 1.5;
     display: flex;
 }
 
