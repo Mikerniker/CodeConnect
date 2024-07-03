@@ -39,3 +39,9 @@
   font-family: 'Gotcha Regular';
   src: url('../../fonts/gotcha-regular.ttf');
 }
+
+
+@font-face {
+  font-family: 'Geist Mono';
+  src: url('../../fonts/GeistMono-SemiBold.otf');
+}
