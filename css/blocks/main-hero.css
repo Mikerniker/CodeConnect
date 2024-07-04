@@ -215,9 +215,6 @@ h2 > span,
 
 .proposition {
     display: flex;
-    
-    width: 100%;
-    height: auto;
     align-items: center;
     box-sizing: border-box;
     gap: 2rem;
