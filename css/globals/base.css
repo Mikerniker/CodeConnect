@@ -2,3 +2,146 @@ body {
     margin: 0;
     font-family: "General Sans", sans-serif;
 }
+
+
+/* TO FIX and DELETE FOR LATER   */
+h1, h2 {
+    font-family: "Gotcha Regular", sans-serif;
+    font-size: 4.125rem;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: left; 
+    color: #007173;
+    margin: 0;
+}
+
+h1 > span,
+h2 > span {
+    font-size: 3rem;
+    line-height: 52px;
+    color: #0F1828;
+}
+
+h1 > span,
+h2 > span, 
+.proposition__header {
+    font-family: "General Sans", sans-serif;  
+    font-weight: 600;
+    text-align: left;
+}
+
+
+/* Main Hero  - About Us Section */
+
+
+.subtitle {
+    font-size: 0.813rem;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #0F1828;
+    font-weight: 600;
+}
+
+.statistics__header,
+.statistics__text-group {
+    flex: 1;
+}
+
+
+/* Main-Hero - Proposition Section  */
+
+.proposition__number {
+    color: #FAE6AA;
+}
+
+.proposition__header {
+    font-size: 40px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+/* .proposition__header > span */
+.gotcha-span {
+    font-family: "Gotcha Regular", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+    
+}
+
+.proposition__header > .gotcha-span {
+     color: #FFE1D6;
+}
+
+.proposition__title {
+    color: #FFFFFF;
+    font-size: 1.625rem;
+   }
+
+
+
+/* Main-Content - Properties Section  */
+
+h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+h5,
+.properties_navlink  {
+    text-align: left;
+}
+
+
+.title  {
+    font-family: "General Sans", sans-serif; 
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 44px;
+    padding: 0;
+    margin: 0;
+    color: #0F1828;
+}
+
+
+.title > .gotcha-span {
+    color: #007173;
+}
+
+
+/* Main-Content - Statistics Section  */
+h4 {
+    font-size: 1.625rem;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+}
+
+
+.statistics__text-number {
+    color: #007173;
+}
+
+.statistics__text-stat {
+    color: #0F1828;
+   }
+
+
+
+
+
+.geist-text {
+    font-family: "Geist Mono", monospace;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+

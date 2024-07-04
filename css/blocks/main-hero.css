@@ -3,66 +3,7 @@ html, body {
     padding: 0; 
 }
 
-/* Fonts */
-
-h1, h2 {
-    font-family: "Gotcha Regular", sans-serif;
-    font-size: 4.125rem;
-    font-weight: 400;
-    line-height: 52px;
-    text-align: left; 
-    color: #007173;
-    margin: 0;
-}
-
-h1 > span,
-h2 > span {
-    font-size: 3rem;
-    line-height: 52px;
-    color: #0F1828;
-}
-
-h1 > span,
-h2 > span, 
-.about-us__subtitle,
-.proposition__header {
-    font-family: "General Sans", sans-serif;  
-    font-weight: 600;
-    text-align: left;
-}
-
-.about-us__subtitle {
-    font-size: 0.813rem;
-    line-height: 18px;
-    letter-spacing: 2px;
-    text-align: left;
-    color: #0F1828BF;
-}
-
-.proposition__header {
-    font-size: 40px;
-    line-height: 44px;
-    color: #FFFFFF;
-}
-
-.proposition__header > span {
-    font-family: "Gotcha Regular", sans-serif;
-    font-size: 60px;
-    font-weight: 400;
-    line-height: 44px;
-    text-align: left;
-    color: #FFE1D6;
-}
-
-
-.proposition__title {
-    font-family: "General Sans", sans-serif;
-    font-size: 1.625rem;
-    font-weight: 500;
-    line-height: 32px;
-    text-align: left;
-    color: #FFFFFF;
-}
+/* MOVE TO BASE LATER , GROUP AND DELETE REPEATED    */
 
 .hero__paragraph,
 .contact__paragraph,
@@ -94,15 +35,7 @@ h2 > span,
     text-align: left;
     }
 
-.proposition__number {
-    font-family: "Geist Mono", monospace;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 32px;
-    letter-spacing: 0.5px;
-    text-align: left;
-    color: #FAE6AA;
-}
+
 
 /* Content */
 .container,
