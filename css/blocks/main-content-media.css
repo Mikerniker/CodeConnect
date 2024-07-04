@@ -74,11 +74,18 @@
     box-sizing: border-box;
     padding: 5rem;
 }
-
+.container-statistics {
+    flex-direction: column;
+}
 .statistics,
 .statistics__text-statgroup,
 .statistics__text {
     display: flex;
+}
+
+.statistics {
+    width: 90%;
+    height: auto;
 }
 
 .statistics__text-statgroup {
@@ -94,6 +101,18 @@
     padding: 16px 16px 48px 16px;
     border-radius: 16px;
 }
+
+.statistics-video {
+    max-width: 100%;
+    height: auto;
+}
+
+.statistics-video-clip {
+    max-width: 100%;
+    height: auto;
+}
+
+
 
 /* Media Queries */
 @media (max-width: 768px) {
