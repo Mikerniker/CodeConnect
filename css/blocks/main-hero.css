@@ -198,7 +198,6 @@ h2 > span,
 .container-proposition {
     width: 100%;
     display: flex;
-    
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
@@ -225,7 +224,6 @@ h2 > span,
 .proposition__content,
 .proposition__text-top {
     display: flex;
-
 }
 
 .proposition__description {
@@ -247,7 +245,6 @@ h2 > span,
 .proposition__content,
 .proposition__main-image {
   flex: 1;
-  
 }
 
 .proposition__title,
@@ -261,14 +258,12 @@ h2 > span,
     max-width: 100%;
     width: 100%;
     height: auto;
-   
 }
 
 .proposition__img {
     width: 100%;
     height: auto;
     max-width: 100%;
-    
 }
 
     /* Media Queries */
