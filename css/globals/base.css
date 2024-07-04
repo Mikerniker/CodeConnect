@@ -43,10 +43,6 @@ h2 > span,
     font-weight: 600;
 }
 
-.statistics__header,
-.statistics__text-group {
-    flex: 1;
-}
 
 
 /* Main-Hero - Proposition Section  */
@@ -126,10 +122,15 @@ h4 {
 
 .statistics__text-number {
     color: #007173;
+    margin: 0;
+    padding: 0.5rem 0;
+    text-align: left;
 }
 
 .statistics__text-stat {
     color: #0F1828;
+    margin: 0;
+    padding: 0;
    }
 
 
