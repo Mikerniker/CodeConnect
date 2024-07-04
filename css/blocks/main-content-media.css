@@ -1,0 +1,87 @@
+/* FONT */
+h5,
+.properties__title,
+.properties_navlink,
+.properties__subtitle  {
+    font-family: "General Sans", sans-serif;
+    text-align: left;
+}
+
+h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+
+.properties__title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 44px;
+    padding: 0;
+    margin: 0;
+}
+
+.properties__title > span {
+    font-family: "Gotcha Regular", sans-serif;
+    font-size: 3.75rem;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+    color: #007173;
+    
+}
+
+.properties_navlink {
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 26px;
+    color: #0F1828;
+
+}
+
+
+.properties__subtitle {
+    font-size: 0.813rem;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #0F1828BF;
+
+}
+
+/* Content */
+.container {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    }
+
+.properties {
+    display: flex;
+    flex-direction: column;
+}
+
+.properties__content {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+   
+
+.properties__group-links {
+    list-style-type: none;
+    gap: 0.5rem;
+    margin: 0;  
+}
+
+
+.properties__group-links li {
+    box-sizing: border-box;
+    padding: 0.75rem  1rem; 
+  
+}
+
+
