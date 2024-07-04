@@ -76,11 +76,24 @@
 }
 
 .statistics,
+.statistics__text-statgroup,
 .statistics__text {
     display: flex;
-    
 }
 
+.statistics__text-statgroup {
+    gap: 1rem;
+}
+
+.statistics__text {
+    padding: 1rem;
+}
+
+.statistics__group {
+    background-color: #FFFFFF;
+    padding: 16px 16px 48px 16px;
+    border-radius: 16px;
+}
 
 /* Media Queries */
 @media (max-width: 768px) {
