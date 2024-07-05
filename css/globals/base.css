@@ -3,7 +3,9 @@ body {
     font-family: "General Sans", sans-serif;
 }
 
-
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 /* TO FIX and DELETE FOR LATER   */
 h1, h2 {
     font-family: "Gotcha Regular", sans-serif;
