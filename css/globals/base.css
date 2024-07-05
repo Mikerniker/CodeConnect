@@ -1,5 +1,6 @@
-body {
+html, body {
     margin: 0;
+    padding: 0; 
     font-family: "General Sans", sans-serif;
 }
 
@@ -32,12 +33,56 @@ h2 > span,
     text-align: left;
 }
 
+
+h4 {
+    font-size: 1.625rem;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+}
+
+h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+h5,
+.properties_navlink  {
+    text-align: left;
+}
+
+
 p {
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
 }
+
+
+/* Main Hero  - About Us Section */
+.paragraph_regular {
+    font-size: 1.125rem;
+    line-height: 26px;
+}
+
+.paragraph_regular-darkgray {
+    font-size: 1.125rem;
+    line-height: 26px;
+    color: #383838;
+}
+
+.proposition__header-paragraph,
+.proposition__paragraph {
+    color: #F1EAE6;
+}
+
+.proposition__paragraph {   
+    margin: 0;
+    padding: 0.3rem;
+    }
+
 
 
 /* Main Hero  - About Us Section */
@@ -73,7 +118,6 @@ p {
     font-weight: 400;
     line-height: 44px;
     text-align: left;
-    
 }
 
 .proposition__header > .gotcha-span {
@@ -82,30 +126,14 @@ p {
 
 .proposition__title {
     color: #FFFFFF;
-    font-size: 1.625rem;
    }
 
 
 
 /* Main-Content - Properties Section  */
 
-h5 {
-    font-size: 1.25rem;
-    font-weight: 600;
-    line-height: 26px;
-}
-
-h5,
-.properties_navlink  {
-    text-align: left;
-}
-
-
-.title  {
-    font-family: "General Sans", sans-serif; 
-}
-
 .title {
+    font-family: "General Sans", sans-serif; 
     font-size: 2.5rem;
     font-weight: 600;
     line-height: 44px;
@@ -121,13 +149,6 @@ h5,
 
 
 /* Main-Content - Statistics Section  */
-h4 {
-    font-size: 1.625rem;
-    font-weight: 500;
-    line-height: 32px;
-    text-align: left;
-}
-
 
 .statistics__text-number {
     color: #007173;
@@ -141,9 +162,6 @@ h4 {
     margin: 0;
     padding: 0;
    }
-
-
-
 
 
 .geist-text {
