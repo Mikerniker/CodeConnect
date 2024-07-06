@@ -133,6 +133,17 @@
 }
 
 
+/* News and Resources */
+.news {
+    width: 100%;
+    padding: 3rem 2rem;
+}
+
+.news__header {
+    justify-content: space-between;
+    padding: 2rem;
+}
+
 
 /* Media Queries */
 @media (max-width: 768px) {

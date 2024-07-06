@@ -3,10 +3,12 @@
     width: 100%; 
     padding: 0 1rem;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .card__content-image {
-    width: 424px;
+    width: 100%;
+   /* width: 424px; */
     border-radius: 12px;
 }
 
@@ -19,8 +21,11 @@
 
 .card__content__text {
     display: flex;
+   
     flex-direction: column;
     gap: 8px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .card__content {
@@ -29,6 +34,7 @@
     color: #383838;
     justify-content: center;
     margin: 0;
+    width: 100%;
 }
 
 .card__heading {
