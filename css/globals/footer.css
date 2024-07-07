@@ -1,7 +1,5 @@
 
 .footer__navigation-links,
-.footer__socmed,
-.footer__socmed-group,
 .footer__socmed-link,
 .footer__socmed-group-icons,
 .footer__bottom,
@@ -13,7 +11,6 @@
 .footer__top, 
 .footer__group-links,
 .footer__bottom,
-.footer__socmed,
 .footer__bottom-footnote, 
 .footer__bottom-footnote-top {
     flex-direction: column;
