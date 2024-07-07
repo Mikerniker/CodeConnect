@@ -1,6 +1,5 @@
 
-.footer__navigation-links,
-.footer__bottom-footnote {
+.footer__navigation-links {
     display: flex;
 }
 
