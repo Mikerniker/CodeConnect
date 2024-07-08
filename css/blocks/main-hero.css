@@ -92,9 +92,7 @@
     flex-wrap: wrap;
     }
 
-.proposition__description,
-.proposition__content,
-.proposition__text-top {
+.proposition__description {
     display: flex;
 }
 
@@ -109,10 +107,6 @@
     padding: 0 1rem;
 }
 
-.proposition__content,
-.proposition__text-top {
-    flex-direction: column;
-}
 
 .proposition__content,
 .proposition__main-image {
