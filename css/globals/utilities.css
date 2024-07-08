@@ -19,3 +19,13 @@
     flex-direction: column;
 }
 
+
+
+.content-box {
+    display: flex;
+    width: 90%;
+    height: auto;
+    gap: 5rem;
+    padding-top: 10rem;
+}
+
