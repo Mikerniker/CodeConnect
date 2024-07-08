@@ -1,5 +1,3 @@
-
-
 .footer {
     background-color: #0f1828;
 }
@@ -16,7 +14,6 @@
     margin: 0;
     color: #FFFFFF;
 }
-
 
 .footer__link,
 .footer__contact-text {
@@ -69,7 +66,6 @@
 }
 
 .footer__group-links li {
-    box-sizing: border-box;
     line-height: 2rem; 
 }
 
@@ -84,8 +80,6 @@
     width: 48px;
     height: 48px;  
 }
-
-
 
 .footer__socmed-group-icons {
     background: #0094961A;
@@ -129,6 +123,7 @@ hr {
     letter-spacing: 0.5px;
     margin: 0.5rem;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .footer__socmed-textlink {
@@ -156,7 +151,7 @@ hr {
 .footer__header-link {
     text-align: center;
     display: flex;
-    justify-content: center; /* Add this line */
+    justify-content: center;
     width: 100%;
 }
 
