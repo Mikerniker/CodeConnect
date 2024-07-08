@@ -1,15 +1,11 @@
 
-/*.footer__navigation-links {
-    display: flex;
-} */ 
-
-.footer__navigation-links {
-    justify-content: center;
-}
-
 
 .footer {
     background-color: #0f1828;
+}
+
+.footer__navigation-links {
+    justify-content: center;
 }
 
 /* Fonts Styling */
