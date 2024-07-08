@@ -1,12 +1,14 @@
 /* Content */
+
+
 .container-hero,
 .container-contact,
 .container-about {
-    width: 100%;
+   /* width: 100%;
     height: auto;
     margin: 0;
     display: flex;
-    justify-content: center;
+    justify-content: center; */
     align-items: flex-end;
    
     }
