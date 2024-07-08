@@ -8,8 +8,6 @@
 }
 
 
-
-
 .footer {
     background-color: #0f1828;
 }
@@ -20,16 +18,9 @@
 .footer__link,
 .footer__contact-text {
     margin: 0;
-    text-align: left;
     color: #FFFFFF;
 }
 
-.footer__header-link {
-    color: #FAE6AA;
-    font-size: 0.81rem;
-    font-weight: 600;
-    letter-spacing: 2px;
-}
 
 .footer__link,
 .footer__contact-text {
@@ -98,11 +89,7 @@
     height: 48px;  
 }
 
-.footer__socmed-group-icons,
-.footer__socmed-textlink,
-.footer_navlink {
-    text-decoration: none;
-}
+
 
 .footer__socmed-group-icons {
     background: #0094961A;
@@ -170,8 +157,21 @@ hr {
     flex-direction: column;    
 } 
 
+.footer__header-link {
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Add this line */
+    width: 100%;
+}
+
+
+.footer__contact-info {
+    text-align: center;
+}
+
 .footer__socmed-group  {
     justify-content: center;  
+    
 }
 
 .footer__logo,

@@ -60,6 +60,9 @@ p {
     text-align: left;
 }
 
+a {
+    text-decoration: none;
+  }
 
 /* Main Hero  - About Us Section */
 .paragraph_regular {
@@ -97,6 +100,9 @@ p {
     font-weight: 600;
 }
 
+.footer__header-link {
+    color: #FAE6AA;
+}
 
 
 /* Main-Hero - Proposition Section  */
