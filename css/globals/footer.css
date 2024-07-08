@@ -10,11 +10,6 @@
 
 
 
-.footer__bottom-footnote, 
-.footer__bottom-footnote-top {
-    flex-direction: column;
-}
-
 .footer {
     background-color: #0f1828;
 }
