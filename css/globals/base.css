@@ -8,25 +8,37 @@ html, body {
     box-sizing: border-box;
 }
 /* TO FIX and DELETE FOR LATER   */
-h1, h2 {
-    font-family: "Gotcha Regular", sans-serif;
-    font-size: 4.125rem;
-    font-weight: 400;
-    line-height: 52px;
-    text-align: left; 
-    color: #007173;
-    margin: 0;
+
+h1, h2, h5,
+.properties_navlink  {
+    text-align: left;
 }
 
-h1 > span,
-h2 > span {
+h1, h2 {
+    font-weight: 600;
+}
+
+h1 {
     font-size: 3rem;
     line-height: 52px;
-    color: #0F1828;
 }
 
-h1 > span,
-h2 > span, 
+h2 {
+    font-size: 2.5rem;
+    line-height: 44px;
+}
+
+h1 > .gotcha-span {
+    font-size: 4.125rem;
+    color: #007173;
+}
+
+h2 > .gotcha-span {
+    font-size: 3.75rem;
+    color: #007173;
+}
+
+
 .proposition__header {
     font-family: "General Sans", sans-serif;  
     font-weight: 600;
@@ -47,10 +59,7 @@ h5 {
     line-height: 26px;
 }
 
-h5,
-.properties_navlink  {
-    text-align: left;
-}
+
 
 
 p {
@@ -65,14 +74,13 @@ a {
   }
 
 /* Main Hero  - About Us Section */
-.paragraph_regular {
+.paragraph_regular,
+.paragraph_regular-darkgray  {
     font-size: 1.125rem;
     line-height: 26px;
 }
 
 .paragraph_regular-darkgray {
-    font-size: 1.125rem;
-    line-height: 26px;
     color: #383838;
 }
 
@@ -111,6 +119,7 @@ a {
     color: #FAE6AA;
 }
 
+/* MAKE H2 */
 .proposition__header {
     font-size: 40px;
     line-height: 44px;
@@ -120,7 +129,6 @@ a {
 /* .proposition__header > span */
 .gotcha-span {
     font-family: "Gotcha Regular", sans-serif;
-    font-size: 60px;
     font-weight: 400;
     line-height: 44px;
     text-align: left;
@@ -128,6 +136,7 @@ a {
 
 .proposition__header > .gotcha-span {
      color: #FFE1D6;
+     font-size: 60px;
 }
 
 .proposition__title {
@@ -151,6 +160,7 @@ a {
 
 .title > .gotcha-span {
     color: #007173;
+    font-size: 60px;
 }
 
 
