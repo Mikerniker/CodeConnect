@@ -9,14 +9,19 @@ html, body {
 }
 /* TO FIX and DELETE FOR LATER   */
 
-h1, h2, h5,
+h1, h2, h5, p, 
+.subtitle, 
 .properties_navlink  {
     text-align: left;
 }
 
-h1, h2 {
+h1, h2, h5,
+.title,
+.subtitle,
+.proposition__header,
+.geist-text {
     font-weight: 600;
-}
+} 
 
 h1 {
     font-size: 3rem;
@@ -39,13 +44,6 @@ h2 > .gotcha-span {
 }
 
 
-.proposition__header {
-    font-family: "General Sans", sans-serif;  
-    font-weight: 600;
-    text-align: left;
-}
-
-
 h4 {
     font-size: 1.625rem;
     font-weight: 500;
@@ -55,25 +53,21 @@ h4 {
 
 h5 {
     font-size: 1.25rem;
-    font-weight: 600;
     line-height: 26px;
 }
-
-
 
 
 p {
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
-    text-align: left;
 }
 
 a {
     text-decoration: none;
   }
 
-/* Main Hero  - About Us Section */
+/* Main Hero  - Hero and About Us Section */
 .paragraph_regular,
 .paragraph_regular-darkgray  {
     font-size: 1.125rem;
@@ -98,15 +92,17 @@ a {
 
 /* Main Hero  - About Us Section */
 
-
 .subtitle {
     font-size: 0.813rem;
     line-height: 18px;
     letter-spacing: 2px;
-    text-align: left;
     color: #0F1828;
-    font-weight: 600;
 }
+
+.feature__text > .subtitle {
+    color: #007173;
+    letter-spacing: 0;
+    }
 
 .footer__header-link {
     color: #FAE6AA;
@@ -114,6 +110,12 @@ a {
 
 
 /* Main-Hero - Proposition Section  */
+
+
+.proposition__header {
+    font-family: "General Sans", sans-serif;  
+    text-align: left;
+}
 
 .proposition__number {
     color: #FAE6AA;
@@ -150,7 +152,6 @@ a {
 .title {
     font-family: "General Sans", sans-serif; 
     font-size: 2.5rem;
-    font-weight: 600;
     line-height: 44px;
     padding: 0;
     margin: 0;
@@ -183,7 +184,6 @@ a {
 .geist-text {
     font-family: "Geist Mono", monospace;
     font-size: 32px;
-    font-weight: 600;
     line-height: 32px;
     letter-spacing: 0.5px;
     text-align: left;
