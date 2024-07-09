@@ -1,11 +1,6 @@
 /* Content */
 .container-feature {
-    width: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
     background-color: #FFE1D640;
-    box-sizing: border-box;
 }
 
 .feature {
