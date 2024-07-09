@@ -9,17 +9,18 @@ html, body {
 }
 /* TO FIX and DELETE FOR LATER   */
 
-h1, h2, h5, p, 
+h1, h2, h3, h5, p, 
 .subtitle, 
 .properties_navlink  {
     text-align: left;
 }
 
-h1, h2, h5,
+h1, h2, h3, h5,
 .title,
 .subtitle,
 .proposition__header,
-.geist-text {
+.geist-text,
+.feature__text-description-span {
     font-weight: 600;
 } 
 
@@ -43,6 +44,11 @@ h2 > .gotcha-span {
     color: #007173;
 }
 
+h3 {
+    font-size: 2rem;
+    line-height: 40px;
+    margin: 0;
+}
 
 h4 {
     font-size: 1.625rem;
@@ -78,6 +84,7 @@ a {
     color: #383838;
 }
 
+
 .proposition__header-paragraph,
 .proposition__paragraph {
     color: #F1EAE6;
@@ -95,7 +102,11 @@ a {
 .subtitle {
     font-size: 0.813rem;
     line-height: 18px;
-    letter-spacing: 2px;
+    letter-spacing: 2px;   
+}
+
+.subtitle,
+.feature__heading {
     color: #0F1828;
 }
 
