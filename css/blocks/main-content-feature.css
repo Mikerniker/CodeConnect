@@ -36,11 +36,6 @@
 /* Media Queries */
 @media (max-width: 768px) {
 
-    .container-feature {
-        padding-top: 20rem;
-        padding-bottom: 25rem;
-    }
-
     .feature__content {
         flex-direction: column;
     }
