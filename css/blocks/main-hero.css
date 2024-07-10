@@ -156,7 +156,8 @@
 
     .hero,
     .hero__buttons,
-    .contact__buttons {
+    .contact__buttons,
+    .proposition {
         flex-direction: column;
     }
 
@@ -171,16 +172,6 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-/* Content */
 
 
 

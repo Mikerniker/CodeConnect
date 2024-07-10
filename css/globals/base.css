@@ -11,14 +11,14 @@ html, body {
 
 h1, h2, h3, h5, p, 
 .subtitle, 
-.properties_navlink  {
+.properties_navlink,
+.gotcha-span  {
     text-align: left;
 }
 
 h1, h2, h3, h5,
 .title,
 .subtitle,
-.proposition__header,
 .geist-text,
 .feature__text-description-span {
     font-weight: 600;
@@ -123,28 +123,23 @@ a {
 /* Main-Hero - Proposition Section  */
 
 
-.proposition__header {
-    font-family: "General Sans", sans-serif;  
-    text-align: left;
-}
-
 .proposition__number {
     color: #FAE6AA;
 }
 
-/* MAKE H2 */
-.proposition__header {
-    font-size: 40px;
-    line-height: 44px;
-    color: #FFFFFF;
-}
 
-/* .proposition__header > span */
+
+
 .gotcha-span {
     font-family: "Gotcha Regular", sans-serif;
     font-weight: 400;
     line-height: 44px;
-    text-align: left;
+}
+
+/* Main-Hero: Value Proposition Section */
+
+.proposition__header {
+    color: #FFFFFF;
 }
 
 .proposition__header > .gotcha-span {
