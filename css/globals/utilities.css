@@ -25,3 +25,14 @@
     padding-top: 10rem;
 }
 
+.is-same-length {
+    flex: 1;
+    display: flex;
+}
+
+
+.is-centered-col {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

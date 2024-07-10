@@ -22,25 +22,6 @@
 .container-about {
     background: #FFFFFF;
 }
- 
-
-.hero__content,
-.hero__main-image,
-.contact__content,
-.contact__main-image,
-.about-us__content,
-.about-us__main-image {
-    flex: 1;
-    display: flex;
-}
-
-.hero__content,
-.contact__content,
-.about-us__content {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 .hero__buttons,
 .contact__buttons {
@@ -61,7 +42,6 @@
     max-width: 100%;
     width: 648px;
     height: auto;
-    object-fit: contain;
 }    
 
 
@@ -120,17 +100,16 @@
     .hero__paragraph,
     .contact__paragraph {
     text-align: center; 
-}
-
-    .container,
-    .container-contact,
-    .container-about {
-        padding-top: 20rem;
     }
+
 
     .container,
     .container-contact {
         background: #F1EAE6;
+    }
+
+    .container-about {
+        background: #FFFFFF;
     }
 
     .container-proposition {
@@ -154,10 +133,3 @@
         width: 100%;
     }
 }
-
-
-
-
-
-
-
