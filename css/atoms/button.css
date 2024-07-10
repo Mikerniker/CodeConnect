@@ -1,4 +1,6 @@
-.button, .header-link-button {
+.button, 
+.header-link-button,
+.link-button {
   border: none;
   border-radius: 100px;
   cursor: pointer;
@@ -15,7 +17,8 @@
 
 .button.search-component__button, 
 .search-component__button--header, 
-.header-link-button {
+.header-link-button,
+.link-button {
   background-color: #007173;
   color: white; 
 }
