@@ -98,7 +98,6 @@
     padding: 0 1rem;
 }
 
-
 .proposition__content,
 .proposition__main-image {
   flex: 1;
@@ -107,13 +106,6 @@
 .proposition__title {
     margin: 0;
     padding: 0.3rem;
-}
-
-
-.proposition__main-image {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
 }
 
 .proposition__img {
