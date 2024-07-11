@@ -19,7 +19,9 @@
     justify-content: flex-start;
 }
 
-
+.feature__text-description {
+    padding-bottom: 1rem;
+}
 
 .feature__image-group {
     flex: 1.5;
@@ -31,6 +33,11 @@
     height: auto;
 }
 
+.feature__text-button {
+    display: flex;
+    max-width: 100%;  
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
 
@@ -38,4 +45,5 @@
         flex-direction: column;
     }
     
+   
 }
