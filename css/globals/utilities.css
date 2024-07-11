@@ -1,6 +1,15 @@
 .container {
-    width: 100%;
+     /*
+    
     margin: 0;
+   width: 100%;
+    display: flex;
+    justify-content: center; */
+    
+    max-width: 100%;
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     }
@@ -8,8 +17,6 @@
 .row {
     width: 100%;
     display: flex;
-
-    box-sizing: border-box;
 }
 
 .column {
