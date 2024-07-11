@@ -60,7 +60,6 @@
 .statistics {
     padding: 3rem;
     gap: 2.5rem;
-   
 }
 
 .statistics__description > p.paragraph_regular {
@@ -75,10 +74,6 @@
 .statistics__text-statgroup {
     gap: 1rem;
     padding: 1rem 0;
-}
-
-.statistics__text {
-    justify-content: space-between;
 }
 
 .statistics__group {
@@ -105,15 +100,18 @@
 
 /* News and Resources */
 .news {
-    width: 100%;
     padding: 3rem 2rem;
+    gap: 1.5rem;
 }
 
 .news__header {
     justify-content: space-between;
-    padding: 2rem;
 }
 
+.news-subtitle {
+    color: #007173;
+    margin-bottom: 0.5rem;
+    }
 
 /* Media Queries */
 @media (max-width: 768px) {
@@ -166,7 +164,10 @@
 
      .statistics__content,
      .statistics__text-statgroup,
-     .statistics__text-buttons {
+     .statistics__text-buttons,
+     .news,
+     .news__header,
+     .news__card-group {
         flex-direction: column;
      }
 
@@ -176,6 +177,11 @@
 
      .statistics__text-buttons {
         width: 100%;
+     }
+
+     /* News and Resources */
+     .news__card-group {
+        gap: 2rem;
      }
 
 }

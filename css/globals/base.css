@@ -18,7 +18,7 @@ h1, h2, h3, h5, p,
     text-align: left;
 }
 
-h1, h2, h3, h4, h5,
+h1, h2, h3, h5,
 .title,
 .subtitle,
 .geist-text,
@@ -185,7 +185,6 @@ a {
     color: #007173;
     margin: 0;
     padding: 0.5rem 0;
-   
 }
 
 .statistics__text-stat {
