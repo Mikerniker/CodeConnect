@@ -37,16 +37,16 @@
     border-radius: 1000px 1000px 0px 0px;
     }
 
+.about-us__header {
+    margin-top: 0;
+}
 
 .about-us__img {
     max-width: 100%;
     width: 648px;
     height: auto;
+    object-fit: contain;
 }    
-
-.about-us__content {
-    margin-bottom: 3rem;
-}
 
 /* Value Proposition Section */
 
