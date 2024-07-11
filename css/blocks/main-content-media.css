@@ -10,24 +10,13 @@
 
 
 /* Content */
-.container-properties {
-    width: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    padding: 5rem 0;
-    }
 
 .properties {
-    display: flex;
-    flex-direction: column;
+    padding: 3rem 0;
 }
 
 .properties__content {
-    display: flex;
-    justify-content: center;
     gap: 5rem;
-   
 }
    
 
