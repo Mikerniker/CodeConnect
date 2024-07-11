@@ -102,8 +102,7 @@
     text-align: center; 
     }
 
-
-    .container,
+    .container-hero,
     .container-contact {
         background: #F1EAE6;
     }
@@ -113,13 +112,14 @@
     }
 
     .container-proposition {
-        background: #0B3938;
+        background: #09443E;
     }
 
     .hero,
     .hero__buttons,
     .contact__buttons,
-    .proposition {
+    .proposition,
+    .proposition__description {
         flex-direction: column;
     }
 
