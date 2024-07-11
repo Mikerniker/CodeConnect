@@ -15,12 +15,8 @@
     color: #FFFFFF;
 }
 
-.footer__link,
-.footer__contact-text {
-    font-size: 1rem;
-}
-
 .footer__link {
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -155,14 +151,12 @@ hr {
     width: 100%;
 }
 
-
 .footer__contact-info {
     text-align: center;
 }
 
 .footer__socmed-group  {
     justify-content: center;  
-    
 }
 
 .footer__logo,
