@@ -13,7 +13,8 @@ h1, h2, h3, h5, p,
 .subtitle, 
 .properties_navlink,
 .gotcha-span,
-.geist-text  {
+.geist-text,
+.statistics__text-number  {
     text-align: left;
 }
 
@@ -60,6 +61,7 @@ h4 {
 h5 {
     font-size: 1.25rem;
     line-height: 26px;
+    margin-bottom: 0;
 }
 
 
@@ -183,7 +185,7 @@ a {
     color: #007173;
     margin: 0;
     padding: 0.5rem 0;
-    text-align: left;
+   
 }
 
 .statistics__text-stat {
