@@ -42,8 +42,7 @@
 }
 
 
-.is-centered-col {
-  
+.is-centered {
     justify-content: center;
     align-items: center;
 }
