@@ -58,7 +58,7 @@
 }
 
 .statistics {
-    padding: 3rem;
+    padding: 1rem 0; 
     gap: 2.5rem;
 }
 
@@ -83,7 +83,7 @@
 }
 
 .statistics__text-buttons {
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
 }
 

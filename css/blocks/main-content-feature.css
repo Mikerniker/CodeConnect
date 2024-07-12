@@ -23,6 +23,9 @@
     padding-bottom: 1rem;
 }
 
+.feature__text-button {
+    width: 100%;
+}
 .feature__image-group {
     flex: 1.5;
 }

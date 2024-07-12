@@ -1,10 +1,14 @@
+**Live Link:**
+https://mikerniker.github.io/CodeConnect/
 ## WEEK 1
 - Estimates 
 - Theme structure (+ repo) -  codebase setup
 - Header (static)
 - Footer
 - At least 1 block from the home page
-
+- BEM Naming Convention (~ basic implementation)
+- Estimations
+- Component-based/block-based/atomic approach to building websites
 ## WEEK 2
 - Fix header and footer
 - Organize code
@@ -14,9 +18,7 @@
 
 
 ## Implementations/Activities:
-- BEM Naming Convention (~ basic implementation)
-- Estimations
-- Component-based/block-based/atomic approach to building websites
+
 
 ## References and Resources:
 - [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/)
@@ -24,6 +26,9 @@
 - SVG References: 
   - [Reference 1](https://stackoverflow.com/questions/18580389/svg-transparent-background-web)
   - [Reference 2](https://stackoverflow.com/questions/24933430/img-src-svg-changing-the-styles-with-css)
+- [HTML Blocks](https://www.w3schools.com/html/html_blocks.asp)
+- [Box-sizing](https://codepen.io/pableoh/pen/oNrXxOK)
+- [Box-sizing2](https://www.w3schools.com/cssref/css3_pr_box-sizing.php)
 
 #### To Do:
 **Header**
@@ -55,5 +60,4 @@
 - [ ] Other: ______
 
 
-**Live Link:**
-https://mikerniker.github.io/CodeConnect/
+
