@@ -19,15 +19,12 @@
     );
     }
 
-
-
 .container-about {
     background: #FFFFFF;
 }
 
 .hero__buttons,
 .contact__buttons {
-   
     gap: 8px;    
     align-self: flex-start;
 }

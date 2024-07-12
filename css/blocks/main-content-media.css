@@ -176,8 +176,13 @@
      }
 
      .statistics__text-buttons {
-        width: 100%;
-     }
+        align-items: normal;
+        gap: 0;
+    }
+
+    .statistics__text-buttons > .header-dropdown-properties__learnmore-link {
+        align-self: center;
+    }
 
      /* News and Resources */
      .news__card-group {
