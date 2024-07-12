@@ -19,6 +19,8 @@
     );
     }
 
+
+
 .container-about {
     background: #FFFFFF;
 }
@@ -94,11 +96,6 @@
 
     /* Media Queries */
 @media (max-width: 768px) {
-     
-    .hero__paragraph,
-    .contact__paragraph {
-    text-align: center; 
-    }
 
     .container-hero,
     .container-contact {
