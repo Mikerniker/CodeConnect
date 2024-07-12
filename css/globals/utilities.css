@@ -43,7 +43,13 @@
 
 
 .is-centered-col {
-    flex-direction: column;
+  
     justify-content: center;
     align-items: center;
 }
+/*
+.is-centered-col {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
