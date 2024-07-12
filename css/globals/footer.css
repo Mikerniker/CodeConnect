@@ -1,4 +1,4 @@
-.footer {
+footer {
     background-color: #0f1828;
 }
 
@@ -41,10 +41,9 @@
     justify-content: space-between;
 }
 
-.footer__contact-info,
-.footer__bottom-footnote-content, 
-.footer__branding {
-    align-items: center;
+.footer__logo-ndis {
+    width: 215.58px;
+    height: 64px;
 }
 
 /* Footer Navigation Section */
@@ -86,14 +85,6 @@
 .footer__socmed-group-icons:hover {
     background-color: #ffe1d6;  
   }
-
-.footer__socmed-group-icons,
-.footer__socmed-link,
-.footer__bottom-footnote, 
-.footer__bottom-footnote-top {           
-    justify-content: center;  
-    align-items: center;       
-}
 
 .footer__socmed-icon {
     width: 24px;
@@ -145,28 +136,30 @@ hr {
 } 
 
 .footer__header-link {
-    text-align: center;
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-.footer__contact-info {
-    text-align: center;
-}
 
+.footer__contact-info, 
 .footer__socmed-group  {
     justify-content: center;  
 }
 
+.footer__branding {
+    align-items: center;
+}
+
 .footer__logo,
 .footer__contact,
-.footer__contact-socmed
+.footer__contact-socmed,
 .footer__navigation-links {
     padding: 1rem;
 }
 
 .footer__header-link,
+.footer__contact-info,
 .footer__link {
     text-align: center;
 }

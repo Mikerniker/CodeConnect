@@ -7,14 +7,14 @@ html, body {
 *, *::before, *::after {
     box-sizing: border-box;
 }
-/* TO FIX and DELETE FOR LATER   */
 
 h1, h2, h3, h5, p, 
 .subtitle, 
 .properties_navlink,
 .gotcha-span,
 .geist-text,
-.statistics__text-number  {
+.statistics__text-number,
+.footer_navlink  {
     text-align: left;
 }
 
@@ -64,7 +64,7 @@ h5 {
     margin-bottom: 0;
 }
 
-
+.footer_navlink, 
 p {
     font-size: 1rem;
     font-weight: 400;
@@ -74,7 +74,6 @@ p {
 a {
     text-decoration: none;
   }
-
 
  /* Spans */ 
 .gotcha-span {
@@ -121,11 +120,6 @@ a {
     letter-spacing: 0;
     }
 
-.footer__header-link {
-    color: #FAE6AA;
-}
-
-
 /* Main-Hero: Value Proposition Section */
 
 .proposition__header {
@@ -155,12 +149,6 @@ a {
     padding: 0.3rem;
     }
 
-
-
-
-
-
-
 /* Main-Content - Properties Section  */
 
 .title {
@@ -172,12 +160,10 @@ a {
     color: #0F1828;
 }
 
-
 .title > .gotcha-span {
     color: #007173;
     font-size: 60px;
 }
-
 
 /* Main-Content - Statistics Section  */
 
@@ -193,5 +179,8 @@ a {
     padding: 0;
    }
 
+/* Footer Section */
 
-
+.footer__header-link {
+    color: #FAE6AA;
+}
