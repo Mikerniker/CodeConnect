@@ -14,11 +14,9 @@
 
 .feature__text-group {
     justify-content: flex-start;
+    padding-top: 5rem;
 }
 
-.feature__text-description {
-    padding-bottom: 1rem;
-}
 
 .feature__image-group {
     flex: 1.5;
@@ -37,5 +35,10 @@
     .feature__text-button {
         flex-direction: column;
     }
-    
+    .feature__text-group {
+        padding-top: 0;
+    }
+
+    .feature__content {
+        gap: 1rem;
 }

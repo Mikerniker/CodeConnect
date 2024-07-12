@@ -1,11 +1,4 @@
 .container {
-     /*
-    
-    margin: 0;
-   width: 100%;
-    display: flex;
-    justify-content: center; */
-    
     max-width: 100%;
     width: 100%;
     padding: 0 1rem;
@@ -18,14 +11,13 @@
 }
 
 .row {
-    width: 100%;
+/*    width: 100%; */
     display: flex;
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    
 }
 
 .content-box {
@@ -40,7 +32,6 @@
     flex: 1;
     display: flex;
 }
-
 
 .is-centered {
     justify-content: center;
