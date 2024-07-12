@@ -25,7 +25,7 @@
 
 .hero__buttons,
 .contact__buttons {
-    display: flex;
+   
     gap: 8px;    
     align-self: flex-start;
 }
@@ -126,8 +126,5 @@
         flex-direction: column-reverse;
     }
 
-    .hero__buttons,
-    .contact__buttons {
-        width: 100%;
-    }
+   
 }

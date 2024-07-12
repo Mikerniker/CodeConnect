@@ -23,9 +23,7 @@
     padding-bottom: 1rem;
 }
 
-.feature__text-button {
-    width: 100%;
-}
+
 .feature__image-group {
     flex: 1.5;
 }
@@ -40,7 +38,8 @@
 /* Media Queries */
 @media (max-width: 768px) {
 
-    .feature__content {
+    .feature__content,
+    .feature__text-button {
         flex-direction: column;
     }
     
