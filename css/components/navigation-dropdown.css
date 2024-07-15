@@ -13,7 +13,7 @@
 
 .header-dropdown-bottom__text { 
     font-size: 1rem;
-    margin-top: 0;
+    margin-bottom: 0;
     text-align: center;
     color: #0F182880;
 }
@@ -23,14 +23,11 @@
 
 .header-dropdown-container {
     width: 689px;
-    height: 204px;
     top: 84px;
     left: 410px;
-    gap: 0px;
     border-radius: 8px; 
     padding: 16px;
 }
-
 
 /* Top of Dropdown */
 
@@ -39,37 +36,31 @@
     align-items: center;
 }
 
-
-
-
 /* Bottom Dropdown Component */
 
-
 .header-dropdown-bottom {
-    top: 63px;
     justify-content: space-between;
     width: 100%; 
+    gap: 28px;
 }
 
 .header-dropdown-bottom__regions {
-    flex-direction: column;
     align-items: center;
     padding: 1rem;
     border-radius: 6px;
     width: 80px;
-    height: 110px;
+    height: auto;
+}
+.header-dropdown-bottom__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header-dropdown-bottom__regions:hover {
     background-color: #ffe1d6;
-    border-radius: 20px;
-}  
-
-.header-dropdown-bottom__link {
-    text-decoration: none;
-    border-radius: 100px;
-}
-
+    
+}   
 
 /* Icons */
 .header-dropdown-bottom__image {
@@ -77,25 +68,39 @@
     height: 80px;
 }
 
-/*  Other Dropdowns */
+/*  ---------------Other Dropdowns----------------- */
 
-/* Other Dropdowns Font*/
-h5 {  
-    color: #1C1C1C;
+/*  SDA Dropdown Section */
+
+/* Left Side */
+
+
+.header-dropdown__group-list {
+    padding-left: 0;
 }
 
-.header-dropdown {
-    justify-content: space-evenly;
+.dropdown__link {
+    list-style: none;
 }
 
-.header-dropdown__left {
-    top: 58px;
-    left: 32px;
+
+.header-dropdown__left-links {
+    text-decoration: none;
+    color: #0F1828BF;
 }
 
+.header-dropdown__left-text {
+    font-weight: 500;
+}
+
+/* SDA Right Side */
 .header-dropdown__right {    
     border-left: 1px solid #0000001A;
     padding-left: 1rem;
+    width: 240px;
+height: auto;
+
+
 }
 
 .header-dropdown__right-image {
@@ -109,16 +114,14 @@ h5 {
     flex-direction: column;   
 }
 
-.header-dropdown__left-links {
-    text-decoration: none;
-    color: #0F1828BF;
+
+.header-dropdown-img {
+    width: 240px;
+    height: 152px;
+    border-radius: 12px;
 }
 
-.header-dropdown__left- {
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 24px;
-}
+
 
 
 
