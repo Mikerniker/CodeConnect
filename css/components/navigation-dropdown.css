@@ -1,18 +1,15 @@
 /* Fonts / Typography */
 
-p, .header-dropdown-properties__title {
-    font-family: "General Sans", sans-serif;
+.header-dropdown-bottom__text, .header-dropdown-properties__title {
     font-size: 0.81rem;
     font-weight: 600;
     line-height: 18px;
     letter-spacing: 2px;
-    text-align: left;
 }
 
 .header-dropdown-properties__title {
     color: #0F1828;
 }
-
 
 .header-dropdown-bottom__text { 
     font-size: 1rem;
@@ -22,7 +19,16 @@ p, .header-dropdown-properties__title {
 }
 
 
-/* Main Div */
+/* Main Div  Properties */
+
+.header-dropdown-container {
+    width: 689px;
+    height: 204px;
+    top: 84px;
+    left: 410px;
+    gap: 0px;
+    border-radius: 8px;
+}
 
 .header-dropdown {
     width: 689px;
