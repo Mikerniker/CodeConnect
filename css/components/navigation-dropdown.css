@@ -1,6 +1,6 @@
 /* Fonts / Typography */
 
-.header-dropdown-bottom__text, .header-dropdown-properties__title {
+.header-dropdown-bottom__text {
     font-size: 0.81rem;
     font-weight: 600;
     line-height: 18px;
@@ -27,17 +27,8 @@
     top: 84px;
     left: 410px;
     gap: 0px;
-    border-radius: 8px;
-}
-
-.header-dropdown {
-    width: 689px;
-    height: auto;
-    top: 84px;
-    left: 410px;
     border-radius: 8px; 
-    display: flex;
-    padding: 16px; 
+    padding: 16px;
 }
 
 
