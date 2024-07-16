@@ -42,3 +42,10 @@
 .card__subtitle {
     text-transform:uppercase;
 }
+
+/* Media Queries */
+@media (max-width: 768px) { 
+    .card {
+        padding: 0;
+    }
+}

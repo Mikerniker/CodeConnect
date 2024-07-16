@@ -114,9 +114,14 @@
 @media (max-width: 768px) { 
     .header-dropdown-container {
         width: 361px;
-      
     }
 
-    
+    .dropdown-card-sda {
+        flex-direction: column;
+    }
+
+    .header-dropdown__right {
+        padding-left: 0;
+    }
 
 }
