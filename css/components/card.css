@@ -19,15 +19,8 @@
     border-radius: 12px 
 }
 
-
-
 .card__content__text {
-    display: flex;
-   
-    flex-direction: column;
-    
     width: 100%;
-    box-sizing: border-box;
 }
 
 .card__content {
@@ -44,5 +37,4 @@
 
 .card__subtitle {
     text-transform:uppercase;
-  
 }
