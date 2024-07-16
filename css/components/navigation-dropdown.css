@@ -121,11 +121,7 @@
         flex-direction: column;
     }
 
-    .header-dropdown__right .card__content-image,
-    .header-dropdown__right .card__content__text {
-        flex: 1;
-    }
-
+    
     .header-dropdown__right {
         padding-left: 0;
         border-left: 0;
