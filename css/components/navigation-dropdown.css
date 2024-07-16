@@ -77,13 +77,16 @@
 
 .header-dropdown__group-list {
     padding-left: 0;
+    margin-top: 0;
 }
 
 .dropdown__link {
     list-style: none;
 }
 
-
+.header-dropdown__links-header {
+    margin: 0;
+}
 .header-dropdown__left-links {
     text-decoration: none;
     color: #0F1828BF;
