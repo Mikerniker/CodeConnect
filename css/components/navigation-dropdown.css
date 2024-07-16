@@ -1,23 +1,23 @@
 /* Fonts / Typography */
 
 .header-dropdown-bottom__text {
-    font-size: 0.81rem;
     font-weight: 600;
-    line-height: 18px;
+    line-height: 24px;
     letter-spacing: 2px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #0F182880;
 }
 
 .header-dropdown-properties__title {
     color: #0F1828;
 }
 
-.header-dropdown-bottom__text { 
-    font-size: 1rem;
-    margin-bottom: 0;
-    text-align: center;
-    color: #0F182880;
+.dropdown-description {
+    font-size: 0.875rem;
+    line-height: 20px;
+    letter-spacing: 0.5px;
 }
-
 
 /* Main Div  Properties */
 
@@ -51,11 +51,6 @@
     width: 80px;
     height: auto;
 }
-.header-dropdown-bottom__link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .header-dropdown-bottom__regions:hover {
     background-color: #ffe1d6;
@@ -70,10 +65,15 @@
 
 /*  ---------------Other Dropdowns----------------- */
 
-/*  SDA Dropdown Section */
+/*  SDA Dropdown Section - Left Side */
 
-/* Left Side */
+.header-dropdown__left {
+    flex: 1.2;
+}
 
+.header-dropdown__links-header {
+    margin: 0;
+}
 
 .header-dropdown__group-list {
     padding-left: 0;
@@ -84,9 +84,6 @@
     list-style: none;
 }
 
-.header-dropdown__links-header {
-    margin: 0;
-}
 .header-dropdown__left-links {
     text-decoration: none;
     color: #0F1828BF;
@@ -96,46 +93,16 @@
     font-weight: 500;
 }
 
+
 /* SDA Right Side */
 .header-dropdown__right {    
     border-left: 1px solid #0000001A;
     padding-left: 1rem;
-    
+    flex: 1;
 }
-
-.header-dropdown__right-image {
-    width: 240px;
-    height: 120px;
-    border-radius: 8px;
-}
-
-.header-dropdown__right-text {
-    display: flex;
-    flex-direction: column;   
-}
-
 
 .header-dropdown-img {
     width: 240px;
     height: auto;
     border-radius: 12px;
-}
-
-
-
-
-
-.header-dropdown__right-content {
-    width: 240px;
-    height: 206px;
-    top: 32px;
-    left: 417px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    font-size: 0.87rem;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.5px;
-    margin: 0px;
 }
