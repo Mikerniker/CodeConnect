@@ -29,19 +29,20 @@
     padding: 16px;
 }
 
-/* Top of Dropdown */
+/* Top of Properties Dropdown */
 
 .header-dropdown-properties__top {
     justify-content: space-between;
     align-items: center;
 }
 
-/* Bottom Dropdown Component */
+/* Bottom of Properties Dropdown */
 
 .header-dropdown-bottom {
     justify-content: space-between;
     width: 100%; 
     gap: 28px;
+    flex-wrap: wrap;
 }
 
 .header-dropdown-bottom__regions {
@@ -105,4 +106,17 @@
     width: 240px;
     height: auto;
     border-radius: 12px;
+}
+
+
+
+/* Media Queries */
+@media (max-width: 768px) { 
+    .header-dropdown-container {
+        width: 361px;
+      
+    }
+
+    
+
 }
