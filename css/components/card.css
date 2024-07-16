@@ -31,8 +31,6 @@
 }
 
 .card__content {
-    display: flex; /* Added */
-    flex-direction: column;
     color: #383838;
     justify-content: center;
     margin: 0;
