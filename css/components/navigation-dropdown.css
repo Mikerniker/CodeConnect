@@ -103,7 +103,8 @@
 }
 
 .header-dropdown-img {
-    width: 240px;
+    max-width: 240px ;
+    width: 100%;
     height: auto;
     border-radius: 12px;
 }
@@ -121,19 +122,24 @@
         flex-direction: column;
     }
 
-    
     .header-dropdown__right {
-        padding-left: 0;
-        border-left: 0;
+       padding-left: 0;
+       border-left: 0; 
     }
 
     .header-dropdown__right .card__content.column {
         flex-direction: row;
     }
 
-    .header-dropdown-img {
-        width: 100%;
-        border-radius: 8px;
+    .card__content__text {
+        padding-left: 1rem;
+        flex: 1;
     }
+
+    .card__content-image {
+        padding-bottom: 0;
+        flex: 1;
+    }
+   
 
 }
