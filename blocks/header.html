@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="../css/globals/header.css">
         <link rel="stylesheet" href="../css/globals/font-face.css">
         <link rel="stylesheet" href="../css/globals/base.css">
+        <link rel="stylesheet" href="../css/globals/utilities.css">
 
         <!-- Atoms -->
         <link rel="stylesheet" href="../css/atoms/button.css">
@@ -20,57 +21,70 @@
     </head>
     
     <body>
-        <header>
-        
-            <div class="navbar">
-                <div class="navbar__frame">    
-                    <ul class="navbar__links">
-                        <li class="navbar__item">
-                            <a class="logo" href="#">
-                                <img class="logo__img" src="../images/atoms/logoipsum.svg" alt="logo image">
-                            </a> 
-                        </li>
-                        <li class="navbar__item">
-                            <nav class="nav">
-                                <a href="#" class="nav__link">
-                                    Our Properties
-                                    <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
-                                </a> 
-                                <a href="#" class="nav__link">
-                                    SDA
-                                    <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
-                                </a> 
-                                <a href="#" class="nav__link">
-                                    About Us
-                                    <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
-                                </a> 
-                                <a href="#" class="nav__link">
-                                    Resource Hub
-                                    <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
-                                </a>
-                                <a href="#" class="nav__link">
-                                    Media & News
-                                    <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
-                                </a>                
-                            </nav>
-                        </li>
-                        <li>
-                            <div class="search-component">
-                                <button class="button search-component__icon-button" type="submit"> 
-                                    <img class="search-component__image" src="../images/atoms/search.svg" alt="search icon">
-                                </button>       
-                                
-                                <a href="#" class="button header-link-button">Submit Enquiry</a>
-
-                                <button  href="#" class="search-component__friesmenu">
-                                    <img class="search-component__friesmenu__icon" src="../images/components/fries-menu.svg" alt="fries menu icon">
-                                </button>  
-                            </div>
-                        </li>
-
-                    </ul>
+        <header class="row">
+            <div class="navbar row">
+                <div class="navbar__frame row">
+                    
+                    <!-- Logo Section -->
+                    <div class="navbar__item row">
+                        <a class="logo" href="#">
+                            <img class="logo__img" src="../images/atoms/logoipsum.svg" alt="logo image">
+                        </a>
+                    </div>
+    
+                    <!-- Navigation Links -->
+                    <div class="navbar__item row">
+                        <nav class="nav row">
+                            <ul class="navbar__item-list row">
+                                <li>
+                                    <a href="#" class="nav__link">
+                                        Our Properties 
+                                        <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav__link">
+                                        SDA 
+                                        <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav__link">
+                                        About Us 
+                                        <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav__link">
+                                        Resource Hub 
+                                        <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav__link">
+                                        Media & News 
+                                        <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+    
+                    <!-- Search and Buttons -->
+                    <div class="navbar__item row">
+                        <div class="search-component">
+                            <button class="button search-component__icon-button" type="submit" aria-label="Search">
+                                <img class="search-component__image" src="../images/atoms/search.svg" alt="search icon">
+                            </button>
+                            <a href="#" class="button header-link-button">Submit Enquiry</a>
+                            <button class="search-component__friesmenu" aria-label="Menu">
+                                <img class="search-component__friesmenu__icon" src="../images/components/fries-menu.svg" alt="fries menu icon">
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
+      
     </body>
 </html>

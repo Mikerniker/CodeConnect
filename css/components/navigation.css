@@ -1,14 +1,17 @@
 .nav {
-    display: flex;   
-    font-family: "General Sans", sans-serif;
     font-weight: 500;   
     /* Review for later */
     flex-wrap: wrap;    
     justify-content: space-between; 
 }
 
+/*
 .nav__dropdown {
     display: flex;  
+} */
+
+.navbar__item-list {
+    list-style-type: none; 
 }
 
 .nav__link {
