@@ -52,7 +52,9 @@ h3 {
     margin: 0;
 }
 
-h4 {
+ 
+h4,
+.statistics__text-stat {
     font-size: 1.625rem;
     font-weight: 500;
     line-height: 32px;
@@ -170,7 +172,7 @@ a {
     line-height: 26px;
     }
 
-    
+
 /* Main-Content - Statistics Section  */
 
 .statistics__text-number {
