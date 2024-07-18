@@ -54,7 +54,8 @@ h3 {
 
  
 h4,
-.statistics__text-stat {
+.statistics__text-stat,
+.proposition__title {
     font-size: 1.625rem;
     font-weight: 500;
     line-height: 32px;
@@ -143,8 +144,10 @@ a {
 }
 
 .proposition__title {
-    color: #FFFFFF;
-   }
+    color: #FFFFFF;  
+    margin: 0;
+    padding: 0.3rem;
+}
 
 .proposition__paragraph {   
     margin: 0;
