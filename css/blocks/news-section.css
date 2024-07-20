@@ -1,9 +1,9 @@
 .container-news {
     background: #09443E;
+   
 }
 
-.news__headings {
-   
+.news__headings {   
     color: #ffffff;
 }
 
@@ -14,4 +14,15 @@
 
 .news__subtitle {
     color: #F1EAE6;
+}
+
+.news__card-group {
+    background: #FFFFFF;
+    width: 100%;
+    padding: 52px;
+    border-radius: 16px;
+}
+
+.news__card-group__cards {
+    width: 100%;
 }
