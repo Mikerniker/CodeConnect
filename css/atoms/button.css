@@ -18,6 +18,7 @@
 .button.search-component__button, 
 .search-component__button--header, 
 .header-link-button,
+.header-button,
 .link-button {
   background-color: #007173;
   color: white; 
