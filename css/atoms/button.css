@@ -55,6 +55,14 @@
   background-color: #ffe1d6;  
 }
 
+/* New Button */
+
+.header-button {
+  padding: 16px 24px 16px 24px;
+  gap: 8px;
+
+}
+
 /* Outline Button */
 .outline-button {
   border: 1px solid #0F182880;
