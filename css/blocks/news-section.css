@@ -1,0 +1,17 @@
+.container-news {
+    background: #09443E;
+}
+
+.news__headings {
+   
+    color: #ffffff;
+}
+
+.news__title,
+.news__span {
+    text-align: center;
+}
+
+.news__subtitle {
+    color: #F1EAE6;
+}

@@ -131,7 +131,7 @@ a {
 
 .proposition__header > .gotcha-span {
     color: #FFE1D6;
-    font-size: 60px;
+    font-size: 3.75rem;
 }
 
 .proposition__header-paragraph,
@@ -194,4 +194,10 @@ a {
 
 .footer__header-link {
     color: #FAE6AA;
+}
+
+
+/* News Page  TO FIX  */
+h1 > .news__span.gotcha-span {
+    color: #FFE1D6;
 }
