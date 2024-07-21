@@ -201,3 +201,8 @@ a {
 h1 > .news__span.gotcha-span {
     color: #FFE1D6;
 }
+
+.news-subtitle {
+    color: #007173;
+    margin-bottom: 0.5rem;
+    }

@@ -4,6 +4,7 @@
     padding: 1rem;
     margin: 0 auto;
     position: relative;
+    
 }
 
 .card:hover {
@@ -18,7 +19,7 @@
 }
 
 .card__image {
-   object-fit: contain;
+    object-fit: contain;
     width: 100%;
     height: auto;
     border-radius: 12px 

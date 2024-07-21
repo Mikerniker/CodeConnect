@@ -109,10 +109,7 @@
     justify-content: space-between;
 }
 
-.news-subtitle {
-    color: #007173;
-    margin-bottom: 0.5rem;
-    }
+
 
 /* Media Queries */
 @media (max-width: 768px) {

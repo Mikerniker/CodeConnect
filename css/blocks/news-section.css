@@ -1,6 +1,5 @@
 .container-news {
     background: #09443E;
-   
 }
 
 .news__headings {   
@@ -12,7 +11,7 @@
     text-align: center;
 }
 
-.news__subtitle {
+.news__heading-subtitle {
     color: #F1EAE6;
 }
 
@@ -26,3 +25,13 @@
 .news__card-group__cards {
     width: 100%;
 }
+
+
+.news__card-item {
+    flex: 1;
+}
+/*
+.news-card-img {
+    width: 424px;
+     height: auto;
+} */
