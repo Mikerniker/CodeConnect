@@ -205,4 +205,5 @@ h1 > .news__span.gotcha-span {
 .news-subtitle {
     color: #007173;
     margin-bottom: 0.5rem;
-    }
+    letter-spacing: 0;
+}

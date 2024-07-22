@@ -27,8 +27,13 @@
 }
 
 
+.news__cards {
+    flex:  0 1 24%;
+    flex-wrap: wrap;
+}
+
 .news__card-item {
-    flex: 1;
+    flex: 0 1 33%;
 }
 /*
 .news-card-img {

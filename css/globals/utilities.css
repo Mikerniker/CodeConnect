@@ -43,3 +43,7 @@
     justify-content: center;
     align-items: center;
 } */
+
+.flexible {
+    flex-grow: 1;
+}
