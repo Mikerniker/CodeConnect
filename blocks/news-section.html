@@ -30,6 +30,13 @@
             <div class="container">
                 <div class="news column is-centered">
                     <div class="news__headings-group">
+                        <div class="breadcrumb">
+                            <a href="#" class="breadcrumb-link">Home</a>
+                            <img class="breadcrumb__caret-icon" src="../images/blocks/CaretRight.svg" alt="caret right icon">
+                                    
+                            <a href="#" class="breadcrumb-link">Media & News</a>
+
+                        </div>
 
                         <div class="news__headings ">
                             <h1 class="news__title"> Media <span class="news__span gotcha-span">&</span> News</h1>
@@ -42,15 +49,33 @@
                     </div> 
                     
                     <div class="news__card-group column is-centered ">
-                        <div class="news__card-group__filter">
-                            <h2> Filter goes here </h2>
-                            <div class="filter-group row is-centered">
-                                <a href="#" class="filter__link row is-centered">
-                                    <img class="header-dropdown-properties__arrow-icon" src="../images/atoms/close.svg" alt="close icon">
-                                </a>
-                                <p>BLOG</p> 
-                            </div>
+                        <div class="news__card-group__filter-group">
+                            
+                            <div class="news__card-group__filter row">
+                                <div class="news__card-group__filter-items row">
+                                    <div class="filter-group row is-centered">
+                                        <a href="#" class="filter__link row is-centered">
+                                            <img class="header-dropdown-properties__arrow-icon" src="../images/atoms/close.svg" alt="close icon">
+                                        </a>
+                                        <p class="filter__text">BLOG</p> 
+                                    </div>
+                                    <div class="filter-group row is-centered">
+                                        <a href="#" class="filter__link row is-centered">
+                                            <img class="header-dropdown-properties__arrow-icon" src="../images/atoms/close.svg" alt="close icon">
+                                        </a>
+                                        <p class="filter__text">Design and accessibility</p> 
+                                    </div>
+                                </div>
 
+
+                                <div class="filter__custom-select row is-centered">
+                                    <label class="filter__select-text subtitle" for="filter">Filter By</label>
+                                    
+                                    <select class="filter__select-box" name="filter" id="filter">
+                                        <option value="">Select Filter</option>
+                                    </select>   
+                                </div>
+                            </div>
                         </div>
 
 
@@ -76,7 +101,6 @@
                                     </div>
                                 </div> 
                            
-
                                 <div class="news__card-item card row">            
                                     <div  class="card__content column">
                                         <div class="card__content-image news-card-img">
@@ -94,8 +118,6 @@
                                     </div>
                                 </div>
 
-
-
                                 <div class="news__card-item card row">            
                                     <div  class="card__content column">
                                         <div class="card__content-image news-card-img">
@@ -112,8 +134,6 @@
                                         <a href="#card-link" class="card__link"></a>
                                     </div>
                                 </div>
-
-                           
 
                             <!-- Second Row -->
 
@@ -230,30 +250,14 @@
 
                             </div>
 
-
-
-
-
-
-
-
                         </div>
-
-
 
                         <div class="news__card-group__buttons">
                             <button class="button header-button" type="button">Load more posts</button>
                             
                         </div>
-                    
-                    
-                    
-                    
-                    
+                       
                     </div>
-
-
-
 
                 </div>
             </div>

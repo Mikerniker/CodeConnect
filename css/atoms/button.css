@@ -94,10 +94,34 @@
 
 /* Filter */
 .filter-group {
-  padding: 12px;
+  padding: 0 12px;
   gap: 8px;
   border-radius: 100px;
   border: 1px 0px 0px 0px;
   background-color: #F4833A1A;
 }
 
+.filter__select-text,
+.filter__text {
+  text-transform: uppercase;
+}
+
+.filter__custom-select {
+  width: 371px;
+  gap: 12px;
+
+}
+
+.filter__select-text {
+  width: 25%;
+} 
+.filter__select-box {
+  width: 280px;
+  padding: 8px 16px;
+  border-radius: 8px;
+ 
+  border: 0.3px none;
+  background-color: #e3e4e5;
+  color: #5E5E5E;
+
+  }

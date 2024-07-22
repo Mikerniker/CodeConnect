@@ -39,6 +39,19 @@
     flex: 0 1 33%;
     padding: 0;
 }
+
+
+.news__card-group__buttons {
+    padding-top: 2rem;
+}
+.news__card-group__filter-group {
+    width: 100%;
+}
+.news__card-group__filter {
+    justify-content: space-between;
+}
+
+
 /*
 .news-card-img {
     width: 424px;
