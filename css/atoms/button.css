@@ -125,3 +125,24 @@
   color: #5E5E5E;
 
   }
+
+  /* Breadcrumb */
+  .breadcrumb {
+  
+  gap: 5px;
+  
+}
+
+.breadcrumb-link {
+  color: #FFFFFF;
+
+}
+
+.breadcrumb-link:active {  
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #FFE1D6;
+
+}
