@@ -30,10 +30,12 @@
 .news__cards {
     flex:  0 1 24%;
     flex-wrap: wrap;
+   
 }
 
 .news__card-item {
     flex: 0 1 33%;
+    padding: 0;
 }
 /*
 .news-card-img {
