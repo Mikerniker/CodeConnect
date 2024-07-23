@@ -12,8 +12,13 @@
     text-align: center;
 }
 
+.news__title {
+    margin-bottom: 0;
+}
+
 .news__heading-subtitle {
     color: #F1EAE6;
+    margin-top: 0;
 }
 
 .news__card-group {
