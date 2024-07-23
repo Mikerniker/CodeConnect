@@ -59,6 +59,25 @@
     text-transform:uppercase;
 }
 
+/* Card Events*/
+
+.card__content-date {
+    width: 64px;
+    height: 58px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+    background: #0F1828;
+    position: absolute;
+    top: 7.65px;
+    left: 8px;
+   color: white;  
+}
+
+.events__image-group {
+    position: relative;
+}
+
+
 /* Media Queries */
 @media (max-width: 768px) { 
     .card {
