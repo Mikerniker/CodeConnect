@@ -63,3 +63,34 @@
     gap: 12px;
 }
 
+
+/* Media Queries */
+@media (max-width: 768px) { 
+    .news__group {
+        padding: 0;
+    }
+
+    .news__headings-group {
+        padding: 0 1rem 5rem 1rem;
+    }
+
+    .news__card-group__filter {
+        flex-direction: column;
+        gap: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .news__card-group {
+        padding: 2rem 0;
+        border-radius: 0;
+    }
+
+    .news__card-group__filter-group {
+        padding: 0 1.8rem;
+    }
+
+.news__cards {
+    flex-direction: column;
+}
+
+}

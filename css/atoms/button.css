@@ -118,15 +118,10 @@
 }
 
 .filter__custom-select {
-  width: 371px;
+  /* width: 371px;  */
   gap: 12px;
- 
-
-}
-
-.filter__select-text {
-  width: 25%;
 } 
+ 
 
 .filter__select-box {
   width: 280px;
