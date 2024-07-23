@@ -94,7 +94,7 @@
 
 /* Filter */
 .filter-group {
-  padding: 0 12px;
+  padding: 12px;
   gap: 8px;
   border-radius: 100px;
   border: 1px 0px 0px 0px;
@@ -106,36 +106,46 @@
   text-transform: uppercase;
 }
 
+.filter__close-icon {
+  width: 16px;
+  height: auto;
+  opacity: 0.5px;
+}
+
+.filter__text {
+  margin: 0;
+  letter-spacing: 0;
+}
+
 .filter__custom-select {
   width: 371px;
   gap: 12px;
+ 
 
 }
 
 .filter__select-text {
   width: 25%;
 } 
+
 .filter__select-box {
   width: 280px;
   padding: 8px 16px;
   border-radius: 8px;
- 
   border: 0.3px none;
   background-color: #e3e4e5;
   color: #5E5E5E;
-
   }
 
+
+  
   /* Breadcrumb */
   .breadcrumb {
-  
   gap: 5px;
-  
 }
 
 .breadcrumb-link {
   color: #FFFFFF;
-
 }
 
 .breadcrumb-link:visited {  
@@ -144,5 +154,4 @@
   line-height: 24px;
   text-align: left;
   color: #FFE1D6;
-
 }
