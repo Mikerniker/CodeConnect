@@ -124,8 +124,9 @@ a {
     letter-spacing: 0;
     }
 
+ 
 /* Main-Hero: Value Proposition Section */
-
+.date-month,
 .proposition__header {
     color: #FFFFFF;
 }
