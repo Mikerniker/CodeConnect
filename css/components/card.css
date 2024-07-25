@@ -77,6 +77,10 @@
     position: relative;
 }
 
+.card__content-date-text {
+    margin: 0;
+}
+
 
 /* Media Queries */
 @media (max-width: 768px) { 
