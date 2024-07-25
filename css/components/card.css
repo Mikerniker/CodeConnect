@@ -72,6 +72,8 @@
     top: 7.65px;
     left: 8px;
    color: white;  
+  
+   
 }
 
 .events__image-group {
@@ -83,6 +85,7 @@
 .card__content-date-text {
     margin: 0;
 }
+
 
 .date-number {
     font-size: 1.5rem;
