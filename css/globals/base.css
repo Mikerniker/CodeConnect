@@ -119,7 +119,7 @@ a {
     color: #0F1828;
 }
 
-.feature__text > .subtitle {
+.feature__text  {
     color: #007173;
     letter-spacing: 0;
     }
@@ -204,8 +204,9 @@ h1 > .news__span.gotcha-span {
     color: #FFE1D6;
 }
 
+/*
 .news-subtitle {
     color: #007173;
     margin-bottom: 0.5rem;
     letter-spacing: 0;
-}
+} */
