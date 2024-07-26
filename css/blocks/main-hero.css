@@ -8,7 +8,7 @@
     );
     }
 
-
+.container-subscription,
 .container-contact {
     background: linear-gradient(
     to right,
@@ -84,6 +84,15 @@
     width: 100%;
     height: auto;
     max-width: 100%;
+}
+
+/* Subscription Section */
+
+.container-subscription {
+    width: 1320px;
+    height: auto;
+    border-radius: 16px;
+  
 }
 
     /* Media Queries */
