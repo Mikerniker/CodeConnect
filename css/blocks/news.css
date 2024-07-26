@@ -85,6 +85,10 @@
         border-radius: 0;
     }
 
+    .news__card-group__cards {
+        width: 90%;
+    }
+
     .news__card-group__filter-group {
         padding: 0 1.8rem;
     }
