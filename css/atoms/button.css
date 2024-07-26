@@ -120,6 +120,7 @@
 .filter__custom-select {
   /* width: 371px;  */
   gap: 12px;
+  flex-wrap: wrap;
 } 
  
 
