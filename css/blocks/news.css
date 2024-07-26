@@ -39,6 +39,7 @@
 
 .news__cards {
     flex-wrap: wrap;
+    gap: 1.5rem;
 }
 
 .news__card-item {
@@ -66,6 +67,11 @@
 
 /* Media Queries */
 @media (max-width: 768px) { 
+
+    .container-news {
+        padding-bottom: 0;
+    }
+    
     .news__group {
         padding: 0;
     }
@@ -87,6 +93,7 @@
 
     .news__card-group__cards {
         width: 90%;
+        
     }
 
     .news__card-group__filter-group {
