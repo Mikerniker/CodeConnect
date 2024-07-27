@@ -94,9 +94,7 @@
     border-radius: 16px;
 }
 
-.subscription {
-    justify-content: space-between;
-}
+
 
 .subscription__image-content {
     height: auto;
@@ -105,12 +103,24 @@
 }
 
 .subscription-image {
-align-self: flex-end;
+    align-self: flex-end;
 	position: absolute;
     width: 100%;
     height: auto;
     border-radius: 1000px 1000px 0px 0px;
+    right: 8rem;
 }
+
+.subscription__content {
+    padding-bottom: 2rem;
+}
+
+.subscription__text,
+.subscription__header {
+margin-bottom: 0;
+}
+
+
 
     /* Media Queries */
 @media (max-width: 768px) {
