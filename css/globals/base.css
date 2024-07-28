@@ -67,9 +67,11 @@ h5 {
     margin: 0;
 }
 
-.footer_navlink, 
+ 
 p,
-.filter__select-box {
+.footer_navlink,
+.filter__select-box,
+.subscription__input {
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
