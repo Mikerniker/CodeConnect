@@ -49,7 +49,8 @@
 }
 
 .news__card-group__buttons {
-    padding-top: 2rem;
+    padding: 2rem 0;
+
 }
 
 .news__card-group__filter-group {

@@ -99,9 +99,9 @@
 
 
 .subscription__image-content {
+    position: relative; 
     height: auto;
-	max-width: 100%;
-    position: relative;
+    max-width: 100%;
 }
 
 .subscription-image {
@@ -110,11 +110,12 @@
     width: 100%;
     height: auto;
     border-radius: 1000px 1000px 0px 0px;
-    right: 8rem;
+    right: 4rem;
 }
 
 .subscription__content {
     padding-bottom: 2rem;
+   
 }
 
 .subscription__text,
