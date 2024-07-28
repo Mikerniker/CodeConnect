@@ -93,24 +93,22 @@
     height: auto;
     border-radius: 16px;
     width: 100%;
-   
-}
-
-
+   }
 
 .subscription__image-content {
     position: relative; 
     height: auto;
-    max-width: 100%;
+    max-width: 100%; 
 }
 
 .subscription-image {
     align-self: flex-end;
 	position: absolute;
     width: 100%;
-    height: auto;
+    height: auto; 
     border-radius: 1000px 1000px 0px 0px;
-    right: 4rem;
+    right: 2rem;
+   
 }
 
 .subscription__content {
