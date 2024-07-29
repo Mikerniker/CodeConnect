@@ -1,16 +1,35 @@
 /* Title Section */
 
+.single-page__main-image {
+    
+width: 100%;
+height: auto;
+}
+
+.single-page__image {
+    width: 100%;
+}
+
+.single-page__side-heading {
+    align-self: flex-end;
+    
+}
 .single-page__headings {
     padding: 0 2rem;
-    background-color: #FAE6AA;
-    width: 100%;
+    background-color: #FAE6AA;   
     
 }
 
 .single-page__side-title {
     text-transform: uppercase;
     margin: 0;
-} 
+}
+
+.single-page__main-title {
+    border-left: 1px solid #00000033;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+}
 
 .single-page__author {
     width: 64px;
