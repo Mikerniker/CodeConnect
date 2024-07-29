@@ -1,5 +1,17 @@
-
+/* Title Section */
 .single-page__side-title {
     text-transform: uppercase;
     margin: 0;
+} 
+
+.single-page__author {
+    width: 64px;
+    height: auto;
+}
+
+
+.single-page__author-image {
+    width: 72px;
+    height: auto;
+    border-radius: 50%;
 }
