@@ -1,4 +1,12 @@
 /* Title Section */
+
+.single-page__headings {
+    padding: 0 2rem;
+    background-color: #FAE6AA;
+    width: 100%;
+    
+}
+
 .single-page__side-title {
     text-transform: uppercase;
     margin: 0;
@@ -9,9 +17,19 @@
     height: auto;
 }
 
+.single-page__author-group {
+    gap: 2rem;
+    align-items: center;
+}
 
 .single-page__author-image {
     width: 72px;
     height: auto;
     border-radius: 50%;
+}
+
+.single-page__author-name,
+.single-page__author-title {
+    margin: 0;
+
 }
