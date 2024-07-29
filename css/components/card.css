@@ -46,7 +46,7 @@
 }
 
 /* Clickable */
-.card__link::after {
+.card__link {
     position: absolute;
     top: 0;
     right: 0;
