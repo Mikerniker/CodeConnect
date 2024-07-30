@@ -15,44 +15,6 @@ https://mikerniker.github.io/CodeConnect/
 |          |                                                                                                                             |                                                                                                                            |
 
 
-### WEEK 1
-**Topics**
-- BEM Naming Convention (~ basic implementation)
-- Estimations
-- Component-based/block-based/atomic approach to building websites
-
-**To Do**
-- Estimates 
-- Theme structure (+ repo) -  codebase setup
-- Header (static)
-- Footer
-- At least 1 block from the home page
-
-### WEEK 2
-**Topics**
-- Review BEM and Atomic Design
-
-**To Do:**
-- Fix header and footer
-- Organize code
-
-### WEEK 3
-
-**To Do:**
-- Finish main page blocks
-
-### WEEK 4
-**Topics:** Using containers, widths/max/min-widths, block heights, CSS naming, Single responsibility, using/working with Figma.
-
-**To Do:**
-- Fix main page blocks
-
-### Week 5
-**Topics:** Review containers, widths/max/min-widths, HTML Block and Inline Elements
-
-**To Do:**
-- Finish/fix main page blocks
-
 ## References and Resources:
 - [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/)
 - [BEM Naming Convention](https://getbem.com/naming/)
