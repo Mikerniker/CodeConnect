@@ -15,6 +15,7 @@ height: auto;
 
 .single-page__side-heading {
     align-self: flex-end;
+    padding-bottom: 1rem;
     
 }
 .single-page__headings {
