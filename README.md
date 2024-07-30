@@ -1,6 +1,21 @@
 **Live Link:**
 https://mikerniker.github.io/CodeConnect/
 
+
+| **Week** | **Topics**                                                                                                                  | **To Do**                                                                                                                  |
+|----------|-----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Week 1   |  - BEM Naming Convention (~ basic implementation)  - Estimations  - Atomic approach to building websites                    | - Estimates - Theme structure (+ repo) - codebase setup - Header (static) - Footer - At least 1 block from the home page   |
+| Week 2   | Review BEM and Atomic Design                                                                                                | - Fix header and footer - Organize code                                                                                    |
+| Week 3   | N/A                                                                                                                         | Main page blocks                                                                                                           |
+| Week 4   | - Using containers - Widths/max/min-widths - Block heights - CSS naming - Single responsibility - Using/working with Figma. | - Main page blocks - Meeting: July 5, 2024                                                                                 |
+| Week 5   | - Review containers - Widths/max/min-widths - HTML Block and Inline Elements                                                | Fix main page blocks Meeting: July 12, 2024                                                                                |
+| Week 6   | N/A Video: - [Cumulative Layout Shift (CLS)](https://web.dev/articles/cls)                                                  | - Fix main page blocks - Review Heading hierarchy. - Make Accessible Clickable cards - Meeting: July 19, 2024 - No meeting |
+| Week 7   | - Vanilla Javascript                                                                                                        | - Work on Event and News Pages and Single Page - Meeting: July 30, 2024                                                    |
+| Week 8   | - Vanilla Javascript                                                                                                        | - Create a Counter that increments/decrements up to 0  - Finish Single Pages - Create another repo for Page 2 Figma file   |
+|          |                                                                                                                             |                                                                                                                            |
+
+
+
 ### WEEK 1
 **Topics**
 - BEM Naming Convention (~ basic implementation)
