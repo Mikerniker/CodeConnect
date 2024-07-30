@@ -103,6 +103,8 @@ a {
     line-height: 26px;
 }
 
+.single-page__side-time,
+.single-page__side-month,
 .paragraph_regular-darkgray {
     color: #383838;
 }

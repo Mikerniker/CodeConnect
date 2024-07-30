@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.single-page-group {
+    gap: 0;
+}
+
 .single-page__main-image {
     width: 100%;
     height: auto;
@@ -22,18 +26,34 @@
 
 .single-page__side-heading {
     align-self: flex-end;
-    padding-bottom: 1rem;
+    padding: 2rem;
+
     
 }
 .single-page__headings {
     padding: 0 2rem;
+}
+
+.headings-news {
     background-color: #FAE6AA;   
-    
+}
+
+.headings-events {
+    background-color: #FFE1D6;   
 }
 
 .single-page__side-title {
     text-transform: uppercase;
     margin: 0;
+    letter-spacing: 0px;
+}
+
+.single-page__side-datebox {
+   padding: 12px 20px;
+   margin-top: 1rem;
+    border-radius: 8px;
+    background: #F6BBA5;
+
 }
 
 .single-page__main-title {
@@ -61,5 +81,12 @@
 .single-page__author-name,
 .single-page__author-title {
     margin: 0;
+}
 
+.single-page__side-title,
+.single-page__side-day,
+.single-page__side-month,
+.single-page__side-time {
+text-align: center;
+margin: 0;
 }
