@@ -4,9 +4,16 @@
 }
 
 .single-page__main-image {
-    
-width: 100%;
-height: auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.single-page__breadcrumb {
+   position: absolute;
+   top: 8rem;
+   left: 2rem;
 }
 
 .single-page__image {
