@@ -97,6 +97,10 @@
 
 /* Sidebar Cards */
 
+.sidebar__card {
+    padding: 0.5rem 0rem;
+}
+
 .sidebar__content {
     gap: 1rem;
 }
