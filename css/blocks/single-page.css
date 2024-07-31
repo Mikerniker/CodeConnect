@@ -60,7 +60,6 @@
     padding: 2rem 5rem;
 }
 
-
 .single-page__author {
     width: 64px;
     height: auto;
@@ -97,7 +96,10 @@ margin: 0;
 
 /* Sidebar */
 
-
+.sidebar__card-group {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 1rem;
+}
 .sidebar__socmed-group {
     align-items: center;
     gap: 1rem;
@@ -111,4 +113,62 @@ margin: 0;
 .sidebar__socmed-icon {
     width: 24px;
     height: 24px;
+}
+
+/* Main Blog */
+
+.main-blog {
+    justify-content: space-between;
+}
+
+.sidebar,
+.blog__content {
+  padding: 15px;
+  background: #FFFFFF;
+}
+
+.blog__content {
+    width: 75%;
+}
+
+.sidebar {
+    width: 25%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+/* Blog Text */
+
+.blog__image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 8px
+}
+
+.blog__image-text {
+    font-style: italic;  
+    letter-spacing: 0.5px; 
+    color: #5E5E5E; 
+}
+
+.blog__lead-text {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 28px; 
+    text-align: left;
+    color: #0F1828;
+}
+
+.blog__heading-text {
+    color: #0F1828;
+}
+
+.blog__block-text {
+    font-weight: 600;  
+    letter-spacing: 0.5px; 
+    color: #007173;
+    border-left: 6px solid #007173;
+    padding-left: 1.5rem;
 }
