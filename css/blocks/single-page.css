@@ -96,10 +96,22 @@ margin: 0;
 
 /* Sidebar */
 
+.sidebar {
+    width: 25%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
 .sidebar__card-group {
     border-bottom: 1px solid #000000;
     padding-bottom: 1rem;
 }
+
+.sidebar__socmed {
+    padding-top: 1rem;
+}
+
 .sidebar__socmed-group {
     align-items: center;
     gap: 1rem;
@@ -115,28 +127,22 @@ margin: 0;
     height: 24px;
 }
 
+.sidebar,
+.blog__content {
+  padding: 1rem;
+  background: #FFFFFF;
+}
+
 /* Main Blog */
 
 .main-blog {
     justify-content: space-between;
 }
 
-.sidebar,
-.blog__content {
-  padding: 15px;
-  background: #FFFFFF;
-}
-
 .blog__content {
     width: 75%;
 }
 
-.sidebar {
-    width: 25%;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
 
 /* Blog Text */
 
