@@ -93,3 +93,18 @@
 text-align: center;
 margin: 0;
 }
+
+
+/* Sidebar */
+
+.sidebar__socmed-group {
+    align-items: center;
+    gap: 1rem;
+}
+
+.sidebar__socmed-icon {
+    width: 24px;
+height: 24px;
+
+
+}
