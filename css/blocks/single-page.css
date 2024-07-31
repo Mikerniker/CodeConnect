@@ -27,9 +27,8 @@
 .single-page__side-heading {
     align-self: flex-end;
     padding: 2rem;
-
-    
 }
+
 .single-page__headings {
     padding: 0 2rem;
 }
@@ -60,14 +59,13 @@
     padding: 2rem 5rem;
 }
 
-.single-page__author {
-    width: 64px;
-    height: auto;
-}
-
 .single-page__author-group {
     gap: 2rem;
     align-items: center;
+}
+.single-page__author {
+    width: 64px;
+    height: auto;
 }
 
 .single-page__author-image {
@@ -104,7 +102,7 @@ margin: 0;
 }
 
 .sidebar__card-group {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #00000033;
     padding-bottom: 1rem;
 }
 
