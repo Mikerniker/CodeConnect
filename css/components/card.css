@@ -94,6 +94,37 @@
     text-align: left;
 }
 
+
+/* Sidebar Cards */
+
+.sidebar__content {
+    gap: 1rem;
+}
+
+.sidebar__image-content {
+    flex: 1;
+}
+.sidebar__text-content {
+    flex: 2;
+}
+
+.sidebar__image {
+    align-self: start;
+    border-radius: 4px;
+}
+
+.sidebar__heading {
+    margin: 0;
+    color: #1D1E1F;
+}
+
+.sidebar__date {
+    font-weight: 400;  
+    margin: 0;
+    letter-spacing: 0px;
+    color: #5E5E5E;
+    }
+
 /* Media Queries */
 @media (max-width: 768px) { 
     .card {
