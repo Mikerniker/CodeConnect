@@ -85,7 +85,7 @@
     top: 0;
     padding: 1rem;
     background: #FFFFFF;
-    z-index: 10;  /* REview for later */
+  /*  z-index: 10;   REview for later */
 }
 
 .sidebar__card-group,
@@ -137,7 +137,6 @@
 
 /* Blog Text */
 
-
 .blog__image {
     width: 100%;
     height: auto;
@@ -186,7 +185,6 @@
     padding: 3rem 0;
 }
 
-
 /* Media Queries */
 @media (max-width: 768px) { 
     .single-page-container {
@@ -208,7 +206,7 @@
     .single-page__breadcrumb {
         position: static; /* Remove absolute positioning */
         margin-top: 1rem; /* Add spacing from the image */
-        padding: 0rem 1rem 1rem 1rem ;
+        padding: 0rem 1rem 1rem 1rem;
     }
 
     .single-page__side-heading {
@@ -243,8 +241,5 @@
     .blog__content-button {
         display: none;
     }
-
-
-
 
 }
