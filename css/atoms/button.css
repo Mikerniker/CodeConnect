@@ -158,6 +158,7 @@
 .subscription__form {
   align-self: center;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .subscription__input {

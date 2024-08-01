@@ -130,7 +130,7 @@
 
 .subscription__text,
 .subscription__header {
-margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .subscription__form-content {
@@ -142,7 +142,9 @@ margin-bottom: 0;
 @media (max-width: 768px) {
 
     .container-hero,
-    .container-contact {
+    .container-contact,
+    .container-subscription-content,
+    .container-subscription {
         background: #F1EAE6;
     }
 
@@ -163,9 +165,36 @@ margin-bottom: 0;
     }
 
     .contact,
-    .about-us {
+    .about-us,
+    .subscription {
         flex-direction: column-reverse;
     }
 
+    .subscription__image-content,
+    .subscription__content {
+        width: 100%;
+    }
+
+    .subscription__image {
+        width: 100%; 
+        height: auto; 
+        position: relative; /* Remove absolute positioning for mobile */
+        right: 0;
+        padding: 2rem 2rem 0rem 2rem;
+    }
+
+    .subscription__content {
+        padding: 1rem; 
+    }
+
+    .subscription__form-content {
+        padding-top: 1rem; 
+    }
+
+   
+    .subscription__input,
+    .header-button {
+        width: 100%;
+    }
    
 }
