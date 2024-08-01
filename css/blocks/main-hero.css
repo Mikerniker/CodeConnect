@@ -8,7 +8,9 @@
     );
     }
 
+
 .container-subscription,
+.container-subscription-content,
 .container-contact {
     background: linear-gradient(
     to right,
