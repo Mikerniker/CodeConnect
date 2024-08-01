@@ -24,7 +24,6 @@
     display: block;
 }
 
-
 .headings-news {
     background-color: #FAE6AA;
 }
@@ -73,7 +72,6 @@
     border-radius: 50%;
 }
 
-
 /* Sidebar */
 .sidebar {
     width: 25%;
@@ -82,6 +80,7 @@
     top: 0;
     padding: 1rem;
     background: #FFFFFF;
+    z-index: 10;  /* REview for later */
 }
 
 .sidebar__card-group,
@@ -164,4 +163,45 @@
 
 .blog__content-button {
     padding: 3rem 0;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) { 
+    .single-page-container {
+        background-color: #F1EAE6;
+    }
+
+    .single-page__main-image {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center; 
+    }
+
+    .single-page__image {
+        width: 100%;
+        height: auto;
+    }
+
+    .single-page__breadcrumb {
+        position: static; /* Remove absolute positioning */
+        margin-top: 1rem; /* Add spacing from the image */
+       
+    }
+
+    .breadcrumb-link {
+        color: #5E5E5E;
+      }
+
+    .breadcrumb__caret-icon {
+        filter: invert(45%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(80%) contrast(100%);
+    }
+
+.single-page__headings {
+    flex-direction: column-reverse;
+}
+
+
+
+
 }
