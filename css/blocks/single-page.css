@@ -96,7 +96,7 @@
 
 .sidebar__socmed-group {
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .sidebar__subtitle,
@@ -123,6 +123,10 @@
 
 .blog__content-text {
     padding: 2rem;
+}
+
+.blog__figure {
+    padding: 1rem 0rem;
 }
 
 /* Blog Text */
@@ -207,7 +211,8 @@
     }
 
     .single-page__main-title,
-    .blog__content {
+    .blog__content,
+    .sidebar {
         width: 100%;
     }
 
@@ -226,6 +231,10 @@
     .main-blog,
     .single-page__headings {
         flex-direction: column-reverse;
+    }
+
+    .blog__content-button {
+        display: none;
     }
 
 
