@@ -111,9 +111,6 @@
     height: 24px;
 }
 
-.sidebar__events-date {
-    margin: 0;
-}
 
 /* Main Blog */
 .main-blog {
@@ -130,9 +127,7 @@
 }
 
 /* Blog Text */
-figure {
-    margin: 0;
-}
+
 
 .blog__image {
     width: 100%;
