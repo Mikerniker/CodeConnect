@@ -28,123 +28,298 @@
     <body>
 
 
-                <!-- Header Section -->
+    <!-- Header Section -->
 
-                <header class="row">
-                    <div class="navbar row">
-                        <div class="navbar__frame row">
-                            
-                            <!-- Logo Section -->
-                            <div class="navbar__item row">
-                                <a class="logo" href="#">
-                                    <img class="logo__img" src="../images/atoms/logoipsum.svg" alt="logo image">
+    <header class="row">
+        <div class="navbar row">
+            <div class="navbar__frame row">
+                
+                <!-- Logo Section -->
+                <div class="navbar__item row">
+                    <a class="logo" href="#">
+                        <img class="logo__img" src="../images/atoms/logoipsum.svg" alt="logo image">
+                    </a>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="navbar__item row">
+                    <nav class="nav row">
+                        <ul class="navbar__item-list row">
+                            <li>
+                                <a href="#" class="nav__link">
+                                    Our Properties 
+                                    <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav__link">
+                                    SDA 
+                                    <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav__link">
+                                    About Us 
+                                    <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav__link">
+                                    Resource Hub 
+                                    <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="pages/news.html" class="nav__link">
+                                    Media & News 
+                                    <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Search and Buttons -->
+                <div class="navbar__item row">
+                    <div class="search-component">
+                        <button class="button search-component__icon-button" type="submit" aria-label="Search">
+                            <img class="search-component__image" src="../images/atoms/search.svg" alt="search icon">
+                        </button>
+                        <a href="#" class="button header-link-button">Submit Enquiry</a>
+                        <button class="search-component__friesmenu" aria-label="Menu">
+                            <img class="search-component__friesmenu__icon" src="../images/components/fries-menu.svg" alt="fries menu icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <!-- Single Page Start - MEDIA AND NEWS HEADING -->
+
+
+        <section>
+            <div class="single-page-container container">
+                <div class="column">
+                    <div class="single-page__main-image">
+                        
+                        <img class="single-page__image" src="../images/blocks/single-page-images/woman-with-laptop.jpg" alt="woman with a laptop working by a large window" width="1512" height="756" loading="lazy">
+                    
+                        <div class="single-page__breadcrumb breadcrumb row is-centered">
+                            <a href="#" class="breadcrumb-link">Home</a>
+                            <img class="breadcrumb__caret-icon" src="../images/blocks/CaretRight.svg" alt="caret right icon">
+                            <a href="#" class="breadcrumb-link">Media & News</a>
+                            <img class="breadcrumb__caret-icon" src="../images/blocks/CaretRight.svg" alt="caret right icon">
+                            <a href="#" class="breadcrumb-link">Empowering Lives: Navigating the World of Specialist Disability Accommodation</a>
+                        </div>
+                    </div>
+                
+                    <div class="single-page__headings headings-news row">
+                        <div  class="single-page__side-heading column">
+                            <p class="single-page__side-title subtitle no-margin ">Real Stories, Challenges & Solutions</p>
+                            <p class="single-page__side-date">09 January 2024</p>  
+                        </div>
+                        <div class="single-page__main-title column">
+                            <h1 class="single-page__title no-margin">Navigating the World of Specialist Disability Accommodation</h1>
+                            <div class="single-page__author-group row">
+                                <div class="single-page__author">
+                                    <img class="single-page__author-image" src="../images/blocks/single-page-images/author-avatar.jpg" alt="smiling bearded man" width="128" height="128" loading="lazy"> 
+                                </div>
+                    
+                                <div class="single-page__author-text column">
+                                    <p class="single-page__author-name no-margin paragraph_regular-darkgray"><strong>Robert John</strong></p>
+                                    <p class="single-page__author-title no-margin">Property Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SINGLE PAGE: NEWS SIDEBAR + CONTENT -->
+
+    <section>
+        <div class="container">
+            <div class="main-blog row"> 
+                <div class="sidebar">
+                    <div class="sidebar__subtitle">
+                        <p class="subtitle">Keep reading</p> 
+                    </div>
+                    <div class="sidebar__card-group">
+                        <div class="sidebar__card card row">            
+                            <div class="sidebar__content card__content row">
+                                <div class="sidebar__image-content card__content-image row">
+                                    <img class="sidebar__image card__image" src="../images/blocks/news-cards/news-card-2.jpg" alt="two hands reading a braille book" width="104" height="52" loading="lazy">
+                                </div>
+                                <div class="sidebar__text-content  card__content__text column flexible">
+                                    <p class="sidebar__heading paragraph_regular">
+                                        <strong>Nunc erat non pellentesque pretium at malesuada viverra</strong>
+                                    </p>
+                                    <p class="sidebar__date card__description subtitle">
+                                        09 January 2024
+                                    </p>
+                                </div>
+                                <a href="#card-link" class="card__link"></a>
+                            </div>
+                        </div>
+
+
+                        <div class="sidebar__card card row">            
+                            <div class="sidebar__content card__content row">
+                                <div class="sidebar__image-content card__content-image row">
+                                    <img class="sidebar__image card__image" src="../images/blocks/news-cards/news-card-6.jpg" alt="two hands reading a braille book" width="104" height="52" loading="lazy">
+                                </div>
+                                <div class="sidebar__text-content  card__content__text column flexible">
+                                    <p class="sidebar__heading paragraph_regular">
+                                        <strong>Vulputate nulla proin mauris cras ut ullamcorper tempor</strong>
+                                    </p>
+                                    <p class="sidebar__date card__description subtitle">
+                                        09 January 2024
+                                    </p>
+                                </div>
+                                <a href="#card-link" class="card__link"></a>
+                            </div>
+                        </div>
+
+
+                        <div class="sidebar__card card row">            
+                            <div class="sidebar__content card__content row">
+                                <div class="sidebar__image-content card__content-image row">
+                                    <img class="sidebar__image card__image" src="../images/blocks/news-cards/news-card-9.jpg" alt="two hands reading a braille book" width="104" height="52" loading="lazy">
+                                </div>
+                                <div class="sidebar__text-content  card__content__text column flexible">
+                                    <p class="sidebar__heading paragraph_regular">
+                                        <strong>Natoque pellentesque placerat est volutpat id nibh</strong>
+                                    </p>
+                                    <p class="sidebar__date card__description subtitle">
+                                        09 January 2024
+                                    </p>
+                                </div>
+                                <a href="#card-link" class="card__link"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div  class="sidebar__socmed">
+                        <div class="sidebar__socmed-title">
+                            <p class="subtitle">Share this post</p>
+                        </div>
+
+
+                        <div class="sidebar__socmed-group row">
+                            <div class="sidebar__socmed-group-icons">
+                                <a href="#" class="sidebar__socmed-link row is-centered">
+                                    <img class="sidebar__socmed-icon" src="../images/blocks/single-page-images/twitter.svg" alt="twitter icon" width="24" height="24">
                                 </a>
                             </div>
-            
-                            <!-- Navigation Links -->
-                            <div class="navbar__item row">
-                                <nav class="nav row">
-                                    <ul class="navbar__item-list row">
-                                        <li>
-                                            <a href="#" class="nav__link">
-                                                Our Properties 
-                                                <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="nav__link">
-                                                SDA 
-                                                <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="nav__link">
-                                                About Us 
-                                                <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="nav__link">
-                                                Resource Hub 
-                                                <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="pages/news.html" class="nav__link">
-                                                Media & News 
-                                                <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
+                            <div class="sidebar__socmed-group-icons">
+                                <a href="#" class="sidebar__socmed-link row is-centered">
+                                    <img class="sidebar__socmed-icon" src="../images/blocks/single-page-images/facebook.svg" alt="facebook icon" width="24" height="24">
+                                </a>
                             </div>
-            
-                            <!-- Search and Buttons -->
-                            <div class="navbar__item row">
-                                <div class="search-component">
-                                    <button class="button search-component__icon-button" type="submit" aria-label="Search">
-                                        <img class="search-component__image" src="../images/atoms/search.svg" alt="search icon">
-                                    </button>
-                                    <a href="#" class="button header-link-button">Submit Enquiry</a>
-                                    <button class="search-component__friesmenu" aria-label="Menu">
-                                        <img class="search-component__friesmenu__icon" src="../images/components/fries-menu.svg" alt="fries menu icon">
-                                    </button>
-                                </div>
+                            <div class="sidebar__socmed-group-icons">
+                                <a href="#" class="sidebar__socmed-link row is-centered">
+                                    <img class="sidebar__socmed-icon" src="../images/blocks/single-page-images/linkedin.svg" alt="linkedin icon"  width="24" height="24">
+                                </a>
+                            </div>
+                            <div class="sidebar__socmed-group-icons is-centered">
+                                <a href="#" class="sidebar__socmed-link row is-centered">
+                                    <img class="sidebar__socmed-icon" src="../images/blocks/single-page-images/email-icon.svg" alt="email icon" width="24" height="24">
+                                </a>
                             </div>
                         </div>
                     </div>
-                </header>
-
-
-                <!-- Single Page Start -->
-
-
-                <section>
-                    <div class="container">
-                        <div class="column">
-                            <div class="single-page__main-image">
-                                <img class="single-page__image" src="../images/blocks/single-page-images/woman-with-laptop.jpg" alt="woman with a laptop working by a large window" width="1512" height="756" loading="lazy">
-                            </div>
-                        
-                            <div class="single-page__headings row">
-                                <div  class="single-page__side-heading column">
-                                    <p class="single-page__side-title subtitle">Real Stories, Challenges & Solutions</p>
-                                    <p class="single-page__side-date">09 January 2024</p>  
-                                </div>
-                                <div class="single-page__main-title">
-                                    <h1>Navigating the World of Specialist Disability Accommodation</h1>
-                                    <div class="single-page__author-group row">
-                                        <div class="single-page__author">
-                                            <img class="single-page__author-image" src="../images/blocks/single-page-images/author-avatar.jpg" alt="smiling bearded man" width="128" height="128" loading="lazy"> 
-                                        </div>
-                            
-                                        <div class="single-page__author-text column">
-                                            <p class="single-page__author-name paragraph_regular-darkgray"><strong>Robert John</strong></p>
-                                            <p class="single-page__author-title">Property Manager</p>
-                                        </div>
-                        
-                                    </div>
-                                </div>
-                    
-                            </div>
-
-                        </div>
-                    
-                 
-                    </div>
-                 
-                 
-                 
-                 
-                 
-                 
                 </div>
-                 </section>
+
+        <!-- NEWS BLOG CONTENT -->
+        
+                <div class="blog__content">
+                    <div class="blog__content-text"> 
+                        <div>
+                            <p class="blog__lead-text">
+                                In a world that is progressively recognizing the importance of 
+                                inclusivity, Specialist Disability Accommodation (SDA) stands as 
+                                a beacon of empowerment for individuals with disabilities. This specialized form of housing goes beyond mere accessibility, aiming to create environments that foster independence, dignity, and a sense of community. Join us as we delve into the transformative world of SDA, exploring how it is shaping lives and redefining standards.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="blog__heading-text">
+                                Understanding Specialist Disability Accommodation
+                            </h3>
+                            <p class="paragraph_regular-darkgray">
+                                At its core, SDA is more than just accessible housing; it's a tailored approach to living spaces designed to meet the unique needs of individuals with significant disabilities. From modified infrastructure to advanced technological solutions, SDA ensures that residents can navigate and enjoy their homes with ease and comfort.
+                            </p>
+                        </div>
+                        <div> 
+                            <figure class="blog__figure no-margin">
+                                <img class="blog__image" src="../images/blocks/single-page-images/woman-with-laptop2.jpg" alt="woman working on her laptop" width="1840" height="1228" loading="lazy">
+                                <figcaption class="blog__image-text paragraph_regular">
+                                    Mauris vitae facilisis commodo elit est id scelerisque ut ut.
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="blog__block-text column">
+                            <h4 class="blog__block-text-title">
+                                Enim sit sed lorem in dignissim consequat morbi sapien. Interdum facilisi lacinia semper pretium nulla eu massa. Rhoncus leo a sollicitudin vulputate id turpis auctor. Consequat dictumst aliquet mattis eros. Sit cursus tellus nec dignissim sociis etiam elementum.
+                            </h4>
+                            <p class="paragraph_regular-darkgray">
+                                <strong>John Doe</strong>, Scientist
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="blog__heading-text">Promoting Independence</h3> 
+                            <p  class="paragraph_regular-darkgray">
+                                One of the key objectives of SDA is to empower individuals with disabilities to lead independent lives. These accommodations are meticulously designed to provide the necessary support without compromising autonomy. Whether it's customized living spaces or state-of-the-art assistive technologies, SDA facilitates an environment where residents can thrive on their terms.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="blog__heading-text">Fostering Inclusive Communities</h3> 
+                            <p  class="paragraph_regular-darkgray">
+                                Beyond the physical aspects, SDA is a catalyst for building <a class="blog__link" href="">inclusive communities</a>. By creating living spaces that encourage social interaction and support networks, SDA contributes to breaking down societal barriers and promoting a sense of belonging. The impact of these communities goes far beyond the walls of individual residences, influencing perceptions and fostering a more inclusive society.    
+                            </p>
+                        </div>
+                        <div> 
+                            <h3 class="blog__heading-text">Real Stories, Real Impact</h3> 
+                            <p  class="paragraph_regular-darkgray">
+                                As we navigate the world of SDA, we'll explore real-life stories of individuals whose lives have been positively transformed by these accommodations. From newfound independence to the creation of vibrant support networks, these stories exemplify the potential for positive change that SDA brings to the lives of those with disabilities.
+                            </p>
+                        </div>
+                        <div> 
+                            <h3 class="blog__heading-text">Challenges and Opportunities</h3> 
+                            <p  class="paragraph_regular-darkgray">
+                                While SDA has made significant strides, there are still challenges to address. The demand for specialized accommodation often outstrips the available supply, highlighting the need for continued advocacy and investment. However, these challenges also present opportunities for innovation, collaboration, and a collective commitment to creating a more inclusive society.
+                            </p>
+                        </div>
+                        <div> 
+                            <h3 class="blog__heading-text">Looking Ahead</h3> 
+                            <p  class="paragraph_regular-darkgray">
+                                In concluding our exploration of Specialist Disability Accommodation, we'll examine the evolving landscape and potential future developments. From advancements in assistive technologies to increased awareness and policy changes, the future of SDA holds promise for further enhancing the lives of individuals with disabilities.
+                            </p>
+                            <p  class="paragraph_regular-darkgray">
+                                Join us on this journey through the world of Specialist Disability Accommodation, where empowerment, inclusivity, and real-life impact converge to shape a more accessible and compassionate future.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>         
 
 
 
-
-                                <!-- Single Page End -->
+    
+    
+    
+    
+    
+    
+    <!-- Single Page End -->
 
 
 

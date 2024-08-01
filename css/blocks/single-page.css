@@ -185,6 +185,7 @@
 @media (max-width: 768px) { 
     .single-page-container {
         background-color: #F1EAE6;
+        padding-top: 6rem;
     }
 
     .single-page__main-image {
