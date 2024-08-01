@@ -30,6 +30,11 @@
 
 .headings-events {
     background-color: #FFE1D6;
+    
+}
+
+.single-page__headings {
+    padding-bottom: 2rem;
 }
 
 .single-page__side-heading {
@@ -112,6 +117,7 @@
 
 
 /* Main Blog */
+
 .main-blog {
     justify-content: space-between;
 }
