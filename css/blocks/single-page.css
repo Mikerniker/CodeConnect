@@ -9,15 +9,14 @@
 
 .single-page__main-image {
     width: 100%;
-    height: auto;
     position: relative;
     text-align: center;
 }
 
 .single-page__breadcrumb {
-   position: absolute;
-   top: 8rem;
-   left: 2rem;
+    position: absolute;
+    top: 8rem;
+    left: 2rem;
 }
 
 .single-page__image {
@@ -25,48 +24,49 @@
     display: block;
 }
 
-.single-page__side-heading {
-    align-self: flex-end;
-    padding: 2rem;
-}
-
 .single-page__headings {
-    padding: 0 2rem;
+    padding: 1rem;
 }
 
 .headings-news {
-    background-color: #FAE6AA;   
+    background-color: #FAE6AA;
 }
 
 .headings-events {
-    background-color: #FFE1D6;   
+    background-color: #FFE1D6;
+}
+
+.single-page__side-heading {
+    align-self: flex-end;
+    padding: 1rem;
+    width: 25%;
 }
 
 .single-page__side-title {
     text-transform: uppercase;
     margin: 0;
-    letter-spacing: 0px;
 }
 
 .single-page__side-datebox {
-   padding: 12px 20px;
-   margin-top: 1rem;
+    padding: 12px 20px;
+    margin-top: 1rem;
     border-radius: 8px;
     background: #F6BBA5;
 }
 
 .single-page__main-title {
     border-left: 1px solid #00000033;
-    padding: 2rem 5rem;
+    padding: 2rem;
+    width: 75%;
 }
 
 .single-page__author-group {
     gap: 2rem;
     align-items: center;
 }
+
 .single-page__author {
     width: 64px;
-    height: auto;
 }
 
 .single-page__author-image {
@@ -75,38 +75,24 @@
     border-radius: 50%;
 }
 
-.single-page__title {
-    margin-bottom: 0;
-}
-
-.single-page__author-name,
-.single-page__author-title {
-    margin: 0;
-}
-
-.single-page__side-title,
-.single-page__side-day,
-.single-page__side-month,
-.single-page__side-time {
-text-align: center;
-margin: 0;
-}
-
 
 /* Sidebar */
-
 .sidebar {
     width: 25%;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    padding: 1rem;
+    background: #FFFFFF;
 }
 
-.sidebar__card-group {
+.sidebar__card-group,
+.sidebar__card-group-events {
     border-bottom: 1px solid #00000033;
     padding-bottom: 1rem;
 }
 
+.sidebar__card-group-events,
 .sidebar__socmed {
     padding-top: 1rem;
 }
@@ -126,25 +112,25 @@ margin: 0;
     height: 24px;
 }
 
-.sidebar,
-.blog__content {
-  padding: 1rem;
-  background: #FFFFFF;
+.sidebar__events-date {
+    margin: 0;
 }
 
 /* Main Blog */
-
 .main-blog {
     justify-content: space-between;
 }
 
 .blog__content {
     width: 75%;
+    background: #FFFFFF;
 }
 
+.blog__content-text {
+    padding: 2rem;
+}
 
 /* Blog Text */
-
 figure {
     margin: 0;
 }
@@ -153,19 +139,19 @@ figure {
     width: 100%;
     height: auto;
     max-width: 100%;
-    border-radius: 8px
+    border-radius: 8px;
 }
 
 .blog__image-text {
-    font-style: italic;  
-    letter-spacing: 0.5px; 
-    color: #5E5E5E; 
+    font-style: italic;
+    letter-spacing: 0.5px;
+    color: #5E5E5E;
 }
 
 .blog__lead-text {
     font-size: 1.25rem;
     font-weight: 500;
-    line-height: 28px; 
+    line-height: 28px;
     text-align: left;
     color: #0F1828;
 }
@@ -175,9 +161,13 @@ figure {
 }
 
 .blog__block-text {
-    font-weight: 600;  
-    letter-spacing: 0.5px; 
+    font-weight: 600;
+    letter-spacing: 0.5px;
     color: #007173;
     border-left: 6px solid #007173;
     padding-left: 1.5rem;
+}
+
+.blog__content-button {
+    padding: 3rem 0;
 }

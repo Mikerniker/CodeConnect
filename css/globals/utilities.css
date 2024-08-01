@@ -47,3 +47,11 @@
 .flexible {
     flex-grow: 1;
 }
+
+.no-margin {
+    margin: 0;
+}
+
+.centered-text {
+    text-align: center;
+}

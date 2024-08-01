@@ -101,6 +101,11 @@
     padding: 0.5rem 0rem;
 }
 
+.sidebar__card-events {
+    border-bottom: 1px solid #00000033;
+    padding: 0rem 0rem 2rem 0rem;
+}
+
 .sidebar__content {
     gap: 1rem;
 }
