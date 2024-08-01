@@ -101,7 +101,8 @@
 }
 
 .sidebar__subtitle,
-.sidebar__socmed-title {
+.sidebar__socmed-title,
+.single-page__side-month {
     text-transform: uppercase;
 }
 
