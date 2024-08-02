@@ -34,6 +34,7 @@
 .hero__img,
 .contact__img {
     max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 1000px 1000px 0px 0px;
     }
@@ -94,11 +95,13 @@
     margin-top: 7rem;
     border-radius: 16px;
     width: 100%;
+    max-width: 100%;
     height: auto;
    }
 
    .subscription {
     width: 100%;
+    max-width: 100%;
     padding-top: 1rem;
    }
 
@@ -112,6 +115,7 @@
     position: relative; 
     height: auto;
     max-width: 100%; 
+    width: 100%
 }
 
 .subscription__image {
@@ -135,6 +139,7 @@
 
 .subscription__form-content {
     width: 100%;
+    max-width: 100%;
 }
 
 

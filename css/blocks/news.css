@@ -5,6 +5,7 @@
 
 .news__headings-group {
     width: 100%;
+    max-width: 100%;
     padding-bottom: 5rem;
 }
 
@@ -29,6 +30,7 @@
 .news__card-group {
     background: #FFFFFF;
     width: 100%;
+    max-width: 100%;
     padding: 52px;
     border-radius: 16px;
 }
@@ -50,12 +52,11 @@
 
 .news__card-group__buttons {
     padding: 2rem 0;
-   
-
 }
 
 .news__card-group__filter-group {
     width: 100%; 
+    max-width: 100%;
     padding: 1rem 0;
 }
 

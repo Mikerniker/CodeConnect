@@ -18,6 +18,7 @@
 .properties__content {
     gap: 5rem;
     width: 100%;
+    max-width: 100%;
 }
 
 .properties__navigation-links {
@@ -38,6 +39,7 @@
 
 .properties__main-image {
     width: 100%;
+    max-width: 100%;
 }
 
 .properties__img {
@@ -90,11 +92,13 @@
 
 .statistics-video {
     max-width: 100%;
+    width: 100%;
     height: auto;   
 }
 
 .statistics-video-clip {
     max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -118,6 +122,7 @@
 
     .properties__navigation-links {
         width: 100%;
+        max-width: 100%;
     }
     
     .properties__content {
@@ -132,6 +137,7 @@
 
     .properties__link {
         width: 100%;
+        max-width: fit-content;
     }
 
     .properties_navlink {
@@ -169,6 +175,10 @@
      .news__header,
      .news__card-group {
         flex-direction: column;
+     }
+
+     .statistics__text-statgroup {
+        width: 100%;
      }
 
      .statistics__description {
