@@ -1,6 +1,10 @@
 .modal__container {
     padding: 0;
 }
+.modal__content {
+    width: 50%;
+    margin: auto;
+}
 
 .modal__text {
     font-size: 40px;
@@ -10,12 +14,12 @@
 
 }
 
-.modal__form {
+.modal__input {
     width: 100%;
     height: auto;
     padding: 10px 13px 9px 19px;
     gap: 1rem;
     border-radius: 8px;
-    border: 0.3px 0px 0px 0px;
+    border: 0.3px solid #5E5E5E
 
 }
