@@ -1,0 +1,21 @@
+.modal__container {
+    padding: 0;
+}
+
+.modal__text {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: center;
+
+}
+
+.modal__form {
+    width: 100%;
+    height: auto;
+    padding: 10px 13px 9px 19px;
+    gap: 1rem;
+    border-radius: 8px;
+    border: 0.3px 0px 0px 0px;
+
+}
