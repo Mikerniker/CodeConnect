@@ -46,10 +46,19 @@
     padding: 0.5rem;
 }
 
+.modal__close-button  {
+    background: transparent; 
+    fill: #5E5E5E;
+   float: right; 
+   cursor: pointer;
+   border: none;
+}
+
+
 .close-button {
     width: 25px;
     height: 25px;
     fill: #5E5E5E;
-   float: right;
+  
 
 }
