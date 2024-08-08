@@ -1,11 +1,11 @@
 
 
 .modal__container {
-    padding: 0;
+    padding: 1rem;
 }
 .modal__content {
     width: 50%;
-    margin: auto;
+    margin: 14rem auto;
 }
 
 .modal__text {
@@ -50,6 +50,6 @@
     width: 20px;
     height: 20px;
     fill: #5E5E5E;
-   
+   float: right;
 
 }
