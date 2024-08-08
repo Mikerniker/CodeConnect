@@ -11,15 +11,35 @@
     font-weight: 700;
     line-height: 48.41px;
     text-align: center;
+}
 
+.modal__search-wrapper {
+    border-radius: 8px;
+    border: 0.3px solid #5E5E5E;
+}
+
+.modal__input,
+.modal__search-wrapper button  {
+    border: none;
 }
 
 .modal__input {
     width: 100%;
     height: auto;
-    padding: 10px 13px 9px 19px;
+    padding: 0.5rem;
     gap: 1rem;
-    border-radius: 8px;
-    border: 0.3px solid #5E5E5E
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+}
 
+.modal__input:focus{
+    outline: none;
+}
+
+
+.modal__search-wrapper button {
+    float: right;
+    background: transparent; 
+    cursor: pointer;
+    padding: 0.5rem;
 }
