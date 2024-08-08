@@ -43,3 +43,11 @@
     cursor: pointer;
     padding: 0.5rem;
 }
+
+.close-button {
+    width: 20px;
+    height: 20px;
+    fill: #5E5E5E;
+    float: right;
+
+}
