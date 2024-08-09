@@ -15,6 +15,12 @@ https://mikerniker.github.io/CodeConnect/
 | Week 9   | <ul><li>Vanilla Javascript</li></ul> | <ul><li>Finish the search popup in the header</li><li>Finish header menu for mobile</li><li>JS Challenge: Light and Dark mode toggle button</li><li>JS Challenge: Create a form that shows a custom error message</li><li>No Meeting: August 9, 2024</li></ul> |
 |          |                                                                                                                             |                                                                                                                            |
 
+## JS Challenges:
+- Create a Counter that increments/decrements up to 0
+- Create an accordion
+- Implement hamburger/responsive menu
+- Light and Dark mode toggle button
+- Create a form that shows a custom error message
 
 
 ## References and Resources:
