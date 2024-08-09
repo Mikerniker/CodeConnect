@@ -12,7 +12,9 @@ https://mikerniker.github.io/CodeConnect/
 | Week 6   | N/A Video: <ul><li><a href="https://web.dev/articles/cls">Cumulative Layout Shift (CLS)</a></li></ul>   | <ul><li>Fix main page blocks</li><li>Review Heading hierarchy.</li><li>Make Accessible Clickable cards</li><li>No Meeting: July 19, 2024</li></ul> |
 | Week 7   | <ul><li>Vanilla Javascript</li><li>Create a Counter that increments/decrements up to 0</li><li>Finish Single Pages</li><li>Create another repo for Page 2 Figma file</li></ul> | <ul><li>Work on Event and News Pages and Single Page</li><li>Meeting: July 30, 2024</li></ul> |
 | Week 8   | <ul><li>Vanilla Javascript</li></ul> | <ul><li>Finish "Page 2" design</li><li>Implement search modal (Update design)</li><li>JS challenge: Create an accordion</li><li>Fix layout of output</li><li>Implement hamburger/responsive menu</li><li>Meeting: August 2, 2024</li></ul>   |
+| Week 9   | <ul><li>Vanilla Javascript</li></ul> | <ul><li>Finish the search popup in the header</li><li>Finish header menu for mobile</li><li>JS Challenge: Light and Dark mode toggle button</li><li>JS Challenge: Create a form that shows a custom error message</li><li>No Meeting: August 9, 2024</li></ul> |
 |          |                                                                                                                             |                                                                                                                            |
+
 
 
 ## References and Resources:
