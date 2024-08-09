@@ -16,11 +16,12 @@ https://mikerniker.github.io/CodeConnect/
 |          |                                                                                                                             |                                                                                                                            |
 
 ## JS Challenges:
-- Create a Counter that increments/decrements up to 0
-- Create an accordion
-- Implement hamburger/responsive menu
-- Light and Dark mode toggle button
-- Create a form that shows a custom error message
+- [x] Create a Counter that increments/decrements up to 0
+- [x] Create an accordion
+- [ ] Search popup in the header
+- [ ] Implement hamburger/responsive menu
+- [ ] Light and Dark mode toggle button
+- [ ] Create a form that shows a custom error message
 
 
 ## References and Resources:
