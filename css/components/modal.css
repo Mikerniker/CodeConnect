@@ -8,12 +8,14 @@
         width: 100%; 
         height: 100%; 
         overflow: auto;
-      
+       
 }
 
 .modal__container {
     padding: 1rem;
+    background-color: #ffffff;
 }
+
 .modal__content {
     width: 50%;
     margin: 14rem auto;
