@@ -9,12 +9,13 @@
  /* Header Button Images and icons  */
 
 .search-component__friesmenu__icon {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
 }
 
 .search-component__image {
-    width: 20px;
+    width: 24px;
     height: auto;
 }
 
