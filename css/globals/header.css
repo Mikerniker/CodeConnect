@@ -37,9 +37,17 @@ header {
         padding: 10px;
     }
 
-    .navbar__frame {
-        align-items: center;
+    .navbar__item-list {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: 0;
     }
+
+      
+
+   /* .navbar__frame {
+        align-items: center;
+    } */
 
 }
 

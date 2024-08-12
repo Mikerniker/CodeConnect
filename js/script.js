@@ -24,10 +24,10 @@ const navigation = document.getElementById("navMenu");
 
 
 friesButton.onclick = function() {
-  if (navigation.style.display === "block") {
+  if (navigation.style.display === "flex") {
     navigation.style.display = "none";
   } else {
-    navigation.style.display = "block";
+    navigation.style.display = "flex";
   }
 }
 
