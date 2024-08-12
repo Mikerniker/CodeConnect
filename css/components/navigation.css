@@ -31,6 +31,11 @@
     border-radius: 30px;
 }
 
+#enquiryButton {
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
 
 @media (max-width: 768px) {
     .nav {
@@ -53,5 +58,11 @@
     .nav__link {
         width: 100%; 
         justify-content: space-between; 
+    }
+
+     /* Show the enquiry button on mobile */
+     #enquiryButton {
+        display: flex; 
+        margin-top: 10px; 
     }
 }
