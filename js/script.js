@@ -29,10 +29,16 @@ const enquiryButton = document.getElementById("enquiryButton");
 
 
 // FRIES IMAGE PATHS
-const friesMenuIconPath = "../images/components/fries-menu.svg";
-const closeIconPath = "../images/atoms/close.svg";
-const ipsumLogoPath = "../images/atoms/logoipsum.svg";
-const livertyLogoPath = "../images/blocks/livertylogo.svg";
+// const friesMenuIconPath = "../images/components/fries-menu.svg";
+// const closeIconPath = "../images/atoms/close.svg";
+// const ipsumLogoPath = "../images/atoms/logoipsum.svg";
+// const livertyLogoPath = "../images/blocks/livertylogo.svg";
+
+const friesMenuIconPath = "images/components/fries-menu.svg";
+const closeIconPath = "images/atoms/close.svg";
+const ipsumLogoPath = "images/atoms/logoipsum.svg";
+const livertyLogoPath = "images/blocks/livertylogo.svg";
+
 
 
 // FRIES MENU FUNCTIONS FUNCTIONS

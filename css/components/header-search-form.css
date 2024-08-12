@@ -42,6 +42,6 @@
 
     .header-link-button,
     .search-component__button {
-        display: none; /* Optionally hide other buttons if needed */
+        display: none; 
     }
 }
