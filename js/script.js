@@ -28,12 +28,13 @@ const navigation = document.getElementById("navMenu");
 const enquiryButton = document.getElementById("enquiryButton"); 
 
 
-// FRIES IMAGE PATHS
+// FRIES IMAGE PATHS for COMPONENT/BLOCKs
 // const friesMenuIconPath = "../images/components/fries-menu.svg";
 // const closeIconPath = "../images/atoms/close.svg";
 // const ipsumLogoPath = "../images/atoms/logoipsum.svg";
 // const livertyLogoPath = "../images/blocks/livertylogo.svg";
 
+// FRIES IMAGE PATHS for INDEX
 const friesMenuIconPath = "images/components/fries-menu.svg";
 const closeIconPath = "images/atoms/close.svg";
 const ipsumLogoPath = "images/atoms/logoipsum.svg";

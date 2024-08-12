@@ -3,6 +3,7 @@
     /* Review for later */
     flex-wrap: wrap;    
     justify-content: space-between; 
+  
 }
 
 /*
@@ -45,6 +46,7 @@
         position: absolute;
         top: 100%; 
         left: 0;
+        background-color: #ffffff;
     }
     
     .nav__dropdown a {
