@@ -21,7 +21,7 @@ window.onclick = function(event) {
 // Fries Menu
 const friesButton = document.getElementById("friesButton");
 const navigation = document.getElementById("navMenu");
-
+const enquiryButton = document.getElementById("enquiryButton"); 
 
 friesButton.onclick = function() {
   if (navigation.style.display === "flex") {
