@@ -51,12 +51,15 @@
     margin-top: 0;
 }
 
+
 .about-us__img {
     max-width: 100%;
     width: 648px;
     height: auto;
-    object-fit: contain;
-}    
+    display: flex; 
+    align-items: flex-end; 
+  /*  object-fit: contain; */  
+}  
 
 /* Value Proposition Section */
 
