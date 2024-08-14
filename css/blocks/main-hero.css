@@ -53,18 +53,16 @@
 
 
 .about-us__img {
-    max-width: 100%;
-    width: 648px;
+    max-width: 648px;
+    width:  100%;
     height: auto;
     display: flex; 
     align-items: flex-end; 
-  /*  object-fit: contain; */  
 }  
 
 /* Value Proposition Section */
 
 .container-proposition {
-    align-items: center;
     padding: 5rem;
     background: linear-gradient(
     to right,
@@ -94,10 +92,14 @@
     padding: 0 1rem;
 }
 
+.proposition__main-image {
+    align-items: center;
+}
+
 .proposition__img {
     width: 100%;
-    height: auto;
-    max-width: 100%;
+    max-width: 640px;
+   
 }
 
 /* Subscription Section */
