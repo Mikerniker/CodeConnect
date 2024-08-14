@@ -31,10 +31,11 @@
     align-self: flex-start;
 }
 
-.hero__main-image {
+.hero__main-image,
+.contact__main-image {
     width: 100%;
     max-width: 604px;
-    display: flex; /* Make the container a flex container */
+    display: flex; 
     align-items: flex-end; 
 }
 
