@@ -31,6 +31,13 @@
     align-self: flex-start;
 }
 
+.hero__main-image {
+    width: 100%;
+    max-width: 604px;
+    display: flex; /* Make the container a flex container */
+    align-items: flex-end; 
+}
+
 .hero__img,
 .contact__img {
     max-width: 100%;
