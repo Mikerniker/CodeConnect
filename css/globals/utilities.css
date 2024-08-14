@@ -23,6 +23,10 @@
     padding-top: 10rem;
 }
 
+.has-padding-big {
+    padding: 5rem;
+}
+
 .content-box {
     display: flex;
     gap: 5rem;
@@ -77,6 +81,11 @@
 .content-box {
     padding: 0rem 1rem;
 }
+
+.has-padding-big {
+    padding: 1rem;
+}
+
 
 
 

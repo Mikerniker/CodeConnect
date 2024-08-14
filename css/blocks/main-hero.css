@@ -63,7 +63,6 @@
 /* Value Proposition Section */
 
 .container-proposition {
-    padding: 5rem;
     background: linear-gradient(
     to right,
     #09443E 0%,
@@ -73,12 +72,9 @@
     );
     }
 
-
 .proposition {
-    align-items: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-    }
+     gap: 2rem;
+     }
 
 
 .proposition__description {
@@ -98,6 +94,7 @@
 
 .proposition__img {
     width: 100%;
+    height: auto;
     max-width: 640px;
    
 }
