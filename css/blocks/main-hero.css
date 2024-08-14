@@ -29,6 +29,7 @@
 .contact__buttons {
     gap: 8px;    
     align-self: flex-start;
+    width: 100%;
 }
 
 .hero__main-image,
@@ -97,31 +98,38 @@
 
 /* Subscription Section */
 
+
+.container-subscription,
+.subscription,
+.subscription__component,
+.subscription__form,
+.subscription__form-content {
+    width: 100%;
+    max-width: 100%;
+}
+
 .container-subscription {
     margin-top: 7rem;
     border-radius: 16px;
-    width: 100%;
-    max-width: 100%;
     height: auto;
    }
 
-   .subscription {
-    width: 100%;
-    max-width: 100%;
+.subscription {
     padding-top: 1rem;
-   }
+}
 
 .container-subscription-content {
     height: auto;
-    width: 100%;
     margin-top: 10rem;
 }
 
+.container-subscription-content,
+.subscription__image-content {
+     width: 100%;
+}
 
 .subscription__image-content {
-   
     max-width: 484px; 
-    width: 100%;
     position: relative; 
 }
 
@@ -132,8 +140,8 @@
     height: auto;
     border-radius: 50% 50% 0 0;
     right: 4rem;
-   align-self: flex-start;
-    transform: translateY(-66.8%); 
+    align-self: flex-start;
+    transform: translateY(-62.8%); 
   }
 
 /* 
@@ -161,15 +169,16 @@
    
 }
 
+.subscription__text {
+    width: 100%;
+    max-width: 568px;
+}
+
 .subscription__text,
 .subscription__header {
     margin-bottom: 0;
 }
 
-.subscription__form-content {
-    width: 100%;
-    max-width: 100%;
-}
 
 
     /* Media Queries */
