@@ -9,7 +9,6 @@ header {
     border-radius: 100px;
     margin: 25px auto; 
     width: 100%;
-    max-width: 1320px; 
     padding: 0px 16px;
     position: fixed;
     z-index: 1;
