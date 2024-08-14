@@ -8,23 +8,25 @@
 } 
 
 .feature__content {
-    gap: 3rem;
+    gap: 2rem;
     padding-bottom: 2rem;
 }
 
 .feature__text-group {
     justify-content: flex-start;
     padding-top: 5rem;
+    width: 100%;
+    max-width: 493px;
 }
 
-
-.feature__image-group {
-    flex: 1.5;
+.feature__main-image {
+    width: 100%;
+    max-width: 760px;  
 }
 
 .feature__img {
     border-radius: 8px;
-    max-width: 100%;  
+    max-width: 100%;
     width: 100%;
     height: auto;
 }
