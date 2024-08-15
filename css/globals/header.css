@@ -1,12 +1,14 @@
 header {
     justify-content: center;  
     background-color: #ffffff;
-     align-items: center;
+    align-items: center;
+   
 }
 
 .header-container {
     max-width: 1320px;
     width: 100%;
+ 
 }
 
 .navbar {

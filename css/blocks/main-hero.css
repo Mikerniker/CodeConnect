@@ -48,6 +48,10 @@
     border-radius: 1000px 1000px 0px 0px;
     }
 
+.about-us {
+    padding-top: 2rem;
+}
+
 .about-us__header {
     margin-top: 0;
 }
