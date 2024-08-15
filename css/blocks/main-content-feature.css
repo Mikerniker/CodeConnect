@@ -3,12 +3,8 @@
     background-color: #FFE1D640;
 }
 
-.feature {
-    padding: 2rem;
-} 
-
 .feature__content {
-    gap: 2rem;
+   
     padding-bottom: 2rem;
 }
 
@@ -44,4 +40,5 @@
 
     .feature__content {
         gap: 1rem;
+}
 }

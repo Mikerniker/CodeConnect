@@ -63,6 +63,8 @@
 .statistics {
     padding: 1rem 0; 
     gap: 2.5rem;
+    max-width: 100%;
+    width: 100%;
 }
 
 .statistics__description > p.paragraph_regular {
