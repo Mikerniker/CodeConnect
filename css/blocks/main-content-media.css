@@ -135,6 +135,9 @@
 @media (max-width: 768px) {
 
     /* Properties Section */
+    .properties {   
+        padding: 1rem;
+      }
 
     .properties__navigation-links {
         width: 100%;
