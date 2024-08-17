@@ -40,64 +40,46 @@ closeButton.onclick = function() {
     modalButton.style.display = "flex"; // Show search button
    
 }
+}
 
 
 
-// closeButton.onclick = function() {
-//  modal.style.display = "none";
-
- 
-//   // Revert the navigation to its original state
-//   navigation.style.display = "flex"; // Hide the navigation
-
-//    // Show the modal button
-//   //  modalButton.style.display = "flex"; 
-
-// //TO FIX
-  
-//   // if (modal.style.display === "none") {
-//   //   navigation.style.display = "flex";
-//   // } else {
-//   //   navigation.style.display = "flex";
-//   // }
-// }
-
-// window.onclick = function(event) {
-//   if (event.target == modal) {
-//     modal.style.display = "none";
-//   }
-// }
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 
 
 
 
 
-// // FRIES MENU FUNCTIONS FUNCTIONS
-// friesButton.onclick = function() {
-//   if (navigation.style.display === "flex") {
-//     navigation.style.display = "none";
-//     modalButton.style.display = "flex";
+// FRIES MENU FUNCTIONS FUNCTIONS
+friesButton.onclick = function() {
+  if (navigation.style.display === "flex") {
+    navigation.style.display = "none";
+    modalButton.style.display = "flex";
 
-//     // Switch to fries icon
-//     friesIcon.src = friesMenuIconPath; 
-//     friesIcon.alt = "fries menu icon"; 
+    // Switch to fries icon
+    friesIcon.src = friesMenuIconPath; 
+    friesIcon.alt = "fries menu icon"; 
 
-//     // Switch to Ipsum logo
-//     logoImage.src = ipsumLogoPath; 
-//     logoImage.alt = "ipsum logo"; 
+    // Switch to Ipsum logo
+    logoImage.src = ipsumLogoPath; 
+    logoImage.alt = "ipsum logo"; 
     
-//   } else {
-//     navigation.style.display = "flex";
-//     modalButton.style.display = "none";
+  } else {
+    navigation.style.display = "flex";
+    modalButton.style.display = "none";
 
-//     // Switch to X icon
-//     friesIcon.src = closeIconPath; 
-//     friesIcon.alt = "close menu icon"; 
+    // Switch to X icon
+    friesIcon.src = closeIconPath; 
+    friesIcon.alt = "close menu icon"; 
 
-//     // Switch to Liverty logo
-//     logoImage.src = livertyLogoPath; 
-//     logoImage.alt = "liverty logo"; 
-//   }
-// }
+    // Switch to Liverty logo
+    logoImage.src = livertyLogoPath; 
+    logoImage.alt = "liverty logo"; 
+  }
+}
 
 
