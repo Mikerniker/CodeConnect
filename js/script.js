@@ -147,3 +147,19 @@ window.onresize = function() {
     }
   }
 };
+
+
+// Properties Dropdown Section:
+
+// Properties VARIABLES
+
+const propertyButton = document.getElementById("openProperties");
+const propertyDropdown = document.getElementById("propertDropdown");
+
+// Dropdown Functions
+
+// MODAL FUNCTIONS
+propertyButton.onclick = function() {
+  propertyDropdown.style.display = "block";
+}
+
