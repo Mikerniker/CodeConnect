@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="../css/components/navigation.css">
         <link rel="stylesheet" href="../css/components/header-search-form.css">
         <link rel="stylesheet" href="../css/components/card.css">
+        <link rel="stylesheet" href="../css/components/modal.css">
 
         <!-- Blocks -->
         <link rel="stylesheet" href="../css/blocks/news.css">
@@ -32,70 +33,103 @@
 
                 <!-- Header Section -->
 
-                <header class="row">
-                    <div class="navbar row">
-                        <div class="navbar__frame row">
-                            
-                            <!-- Logo Section -->
-                            <div class="navbar__item row">
-                                <a class="logo" href="#">
-                                    <img class="logo__img" src="../images/atoms/logoipsum.svg" alt="logo image">
+    <header>
+    <div class="header-container">
+        <div class="navbar centered-row">
+            <div class="navbar__frame row">
+                
+                <!-- Logo Section -->
+                <div class="navbar__item row">
+                    <a  class="logo" href="#">
+                        <img id="ipsumLogo" class="logo__img" src="../images/atoms/logoipsum.svg" alt="logo image">
+                    </a>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="navbar__item row">
+                    <nav id="navMenu" class="nav row">
+                        <ul class="navbar__item-list row">
+                            <li>
+                                <a href="#" class="nav__link">
+                                    Our Properties 
+                                    <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
                                 </a>
-                            </div>
-            
-                            <!-- Navigation Links -->
-                            <div class="navbar__item row">
-                                <nav class="nav row">
-                                    <ul class="navbar__item-list row">
-                                        <li>
-                                            <a href="#" class="nav__link">
-                                                Our Properties 
-                                                <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="nav__link">
-                                                SDA 
-                                                <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="nav__link">
-                                                About Us 
-                                                <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="nav__link">
-                                                Resource Hub 
-                                                <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="pages/news.html" class="nav__link">
-                                                Media & News 
-                                                <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-            
-                            <!-- Search and Buttons -->
-                            <div class="navbar__item row">
-                                <div class="search-component">
-                                    <button class="button search-component__icon-button" type="submit" aria-label="Search">
-                                        <img class="search-component__image" src="../images/atoms/search.svg" alt="search icon">
+                            </li>
+                            <li>
+                                <a href="#" class="nav__link">
+                                    SDA 
+                                    <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav__link">
+                                    About Us 
+                                    <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav__link">
+                                    Resource Hub 
+                                    <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav__link">
+                                    Media & News 
+                                    <img class="nav__icon" src="../images/atoms/chevron-down.svg" alt="chevron down icon">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" id="enquiryButton" class="button header-link-button">Submit Enquiry</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Search and Buttons -->
+                <div class="navbar__item row">
+                    <div class="search-component">
+                        <button id="openSearchModal" class="button search-component__icon-button" type="submit" aria-label="Search">
+                            <img id="searchIconImage" class="search-component__image" src="../images/atoms/search.svg" alt="search icon">
+                        </button>
+
+                            <!-- Modal Section -->
+                            <section id="searchModal"  class="modal column">
+                    
+                                <div class="modal__container container ">
+                                    <button id="closeModal" class="modal__close-button" type="submit">
+                                        <img class="close-button" src="../images/atoms/close.svg" alt="close or x icon" width="20px" height="20px" loading="lazy">
                                     </button>
-                                    <a href="#" class="button header-link-button">Submit Enquiry</a>
-                                    <button class="search-component__friesmenu" aria-label="Menu">
-                                        <img class="search-component__friesmenu__icon" src="../images/components/fries-menu.svg" alt="fries menu icon">
-                                    </button>
+                            
+                                    <div class="modal__content is-centered">
+                                        <p class="modal__text">How can we help you today?</p>
+                                        <div  class="modal__search-wrapper" >
+                                            <form class="modal__form row" action="">                      
+                                                <input  class="modal__input"  type="text" id="user_input" name="search" placeholder="Enter a keyword to start searching">
+                                                <button type="submit">
+                                                    <img class="search-component__image" src="../images/atoms/search.svg" alt="search icon">
+                                                </button>
+                                            
+                                            </form> 
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
+                            </section>
+                    
+                            <!-- Modal End -->
+
+
+                        <a href="#" class="button header-link-button">Submit Enquiry</a>
+                        <button id="friesButton" class="search-component__friesmenu" aria-label="Menu">
+                            <img id="friesIcon" class="search-component__friesmenu__icon" src="../images/components/fries-menu.svg" alt="fries menu icon">
+                        </button>
                     </div>
-                </header>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
 
 
 
@@ -378,34 +412,34 @@
                 <!-- Subscription Section -- EVENTS -->
 
                 
-<section class="container-subscription row">
-    <div class="container">
-        <div class="centered-row">
-            <div class="subscription row">
-                <div class="subscription__image-content is-same-length">
-                    <img class="subscription__image" src="../images/blocks/sitting-woman.jpg" alt="woman with red nails sitting surrounded by plants" decoding="async" loading="lazy" width="484" height="484">              
-                </div>
-                <div class="subscription__content is-same-length is-centered column">
-                    <div class="subscription__text">
-                        <h2 class="subscription__header">Stay connected and informed</h2>
-                        <p  class="subscription__paragraph paragraph_regular-darkgray">
-                            Join our community mailing list for the latest in empowering living, inclusive design, and inspiring stories.
-                        </p>
-                    </div>
-                        
-                    <div  class="subscription__form-content row">
-                        <div class="subscription__component row">
-                            <form action="" class="subscription__form row">
-                                <input class="subscription__input" type="text" id="email" name="email" placeholder="Email address">
-                                <button class="button header-button" type="button">Subscribe</button>
-                              </form>
+                <section class="container-subscription">
+                    <div class="container">
+                        <div class="centered-row">
+                            <div class="subscription row  is-centered">
+                                <div class="subscription__image-content row">
+                                    <img class="subscription__image" src="../images/blocks/sitting-woman.jpg" alt="woman with red nails sitting surrounded by plants" decoding="async" loading="lazy" width="484" height="484">              
+                                </div>
+                                <div class="subscription__content is-centered column">
+                                    <div class="subscription__text column">
+                                        <h2 class="subscription__header">Stay connected and informed</h2>
+                                        <p  class="subscription__paragraph paragraph_regular-darkgray">
+                                            Join our community mailing list for the latest in empowering living, inclusive design, and inspiring stories.
+                                        </p>
+                                    </div>
+                                        
+                                    <div  class="subscription__form-content row">
+                                        <div class="subscription__component row">
+                                            <form action="" class="subscription__form row">
+                                                <input class="subscription__input" type="text" id="email" name="email" placeholder="Email address">
+                                                <button class="button header-button" type="button">Subscribe</button>
+                                              </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> 
+                </section> 
 
 
 
