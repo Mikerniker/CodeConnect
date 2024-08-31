@@ -47,7 +47,7 @@ https://mikerniker.github.io/CodeConnect/
 - [x] Add images and icons
 - [x] Fix Search svg
 - [x] Make components
-- [ ] Fix Responsiveness
+- [x] Fix Responsiveness
 - [x] Make Initial Header Block 
 - [ ] Other: ______
 
@@ -55,8 +55,8 @@ https://mikerniker.github.io/CodeConnect/
 - [x] Atoms: To do Button outline
 - [x] Components 
 - [x] Add Images and Icons
-- [ ] Fix Responsiveness
-- [ ] Fix Alignment and Sizing
+- [x] Fix Responsiveness
+- [x] Fix Alignment and Sizing
 - [ ] Other: ______
 
 
