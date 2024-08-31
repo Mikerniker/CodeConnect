@@ -13,16 +13,23 @@ https://mikerniker.github.io/CodeConnect/
 | Week 7   | <ul><li>Vanilla Javascript</li><li>Create a Counter that increments/decrements up to 0</li><li>Finish Single Pages</li><li>Create another repo for Page 2 Figma file</li></ul> | <ul><li>Work on Event and News Pages and Single Page</li><li>Meeting: July 30, 2024</li></ul> |
 | Week 8   | <ul><li>Vanilla Javascript</li></ul> | <ul><li>Finish "Page 2" design</li><li>Implement search modal (Update design)</li><li>JS challenge: Create an accordion</li><li>Fix layout of output</li><li>Implement hamburger/responsive menu</li><li>Meeting: August 2, 2024</li></ul>   |
 | Week 9   | <ul><li>Vanilla Javascript</li></ul> | <ul><li>Finish the search popup in the header</li><li>Finish header menu for mobile</li><li>JS Challenge: Light and Dark mode toggle button</li><li>JS Challenge: Create a form that shows a custom error message</li><li>No Meeting: August 9, 2024</li></ul> |
+| Week 10   | <ul><li>Vanilla Javascript</li></ul> | <ul><li>Finish Page 2</li><li>Final Project: Page 3</li><li>Meeting: August 16, 2024</li></ul> |
+| Week 11   | <ul><li>Review Past Lessons</li></ul> | <ul><li>Finish Final Project: Page 3</li><li>CSS  Column-Count</li><li>CSS Counters</li><li>No Meeting: August 23, 2024</li></ul> |
+| Week 12   | <ul><li>Final Week</li></ul> | <ul><li>Finish Final Project: Page 3</li><li>Last Meeting: August 30, 2024</li></ul> |
 |          |                                                                                                                             |                                                                                                                            |
 
 ## JS Challenges:
-- [x] Create a Counter that increments/decrements up to 0
-- [x] Create an accordion
-- [ ] Search popup in the header
-- [ ] Implement hamburger/responsive menu
-- [ ] Light and Dark mode toggle button
-- [ ] Create a form that shows a custom error message
+- [x] Create a [Counter that increments/decrements up to 0](https://codepen.io/mikerniker/pen/oNrBEzK)
+- [x] Create an [accordion](https://codepen.io/mikerniker/pen/YzoVzqq)
+- [x] Search popup in the header ([Page 1](https://mikerniker.github.io/CodeConnect/))
+- [x] Implement hamburger/responsive menu ([Page 1](https://mikerniker.github.io/CodeConnect/))
+- [x] [Light and Dark mode toggle button](https://codepen.io/mikerniker/pen/GRbMmxw)
+- [x] Create a form that shows a [custom error message](https://codepen.io/mikerniker/pen/vYqWoWN)
 
+## Code Connect Pages
+- [x] [Page 1](https://mikerniker.github.io/CodeConnect/)
+- [x] [Page 2](https://mikerniker.github.io/CodeConnect_P2/)
+- [x] [Page 3](https://mikerniker.github.io/CodeConnect_P3/)
 
 ## References and Resources:
 - [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/)
