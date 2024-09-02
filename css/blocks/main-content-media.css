@@ -105,10 +105,12 @@
 }
 
 .statistics-video {
-    max-width: 1320px;
+    /* max-width: 1320px; */
     width: 100%;
     height: auto;  
     margin: auto; 
+    padding: 2rem 3.8rem;
+    
 }
 
 .statistics-video-clip {

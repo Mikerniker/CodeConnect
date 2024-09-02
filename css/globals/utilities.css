@@ -52,6 +52,11 @@ justify-content: space-between;
     max-width: 100%;
 }
 
+.width-632 {
+    width: 100%;
+    max-width: 632px;
+}
+
 .width-604 {
     width: 100%;
     max-width: 604px;
