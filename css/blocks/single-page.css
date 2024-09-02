@@ -25,13 +25,15 @@
     display: block;
 }
 
-.headings-news {
+
+/* .headings-news */
+.single-page__news {
     background-color: #FAE6AA;
 }
 
-.headings-events {
+/* .headings-events */
+.single-page__events {
     background-color: #FFE1D6;
-    
 }
 
 .single-page__headings {
